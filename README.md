@@ -1,5 +1,5 @@
 # Testsigma Tutorials
-Testsigma tutorial are built using [Gatsby](https://www.gatsbyjs.com/) and deployed to [https://testsigma.com/tutorials/](https://testsigma.com/tutorials/).
+Testsigma tutorials are built using [Gatsby](https://www.gatsbyjs.com/) and deployed to [https://testsigma.com/tutorials/](https://testsigma.com/tutorials/).
 
 &emsp; 
 
