@@ -1,7 +1,7 @@
 ---
-title: "Get Started with Automating iOS Apps"
+title: "Getting started with REST API testing"
 order: 1.5
-page_id: "Get Started with Automating iOS Apps"
+page_id: "Getting started with REST API testing"
 search_keyword: "Get started, Rest APIs, Testsigma Tutorials"
 warning: false
 contextual_links:
