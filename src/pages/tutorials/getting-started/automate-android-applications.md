@@ -1,6 +1,6 @@
 ---
 title: "Get Started with Automating Android Apps"
-order: 1.4
+order: 1.3
 page_id: "Get Started with Automating Android Apps"
 warning: false
 contextual_links:
