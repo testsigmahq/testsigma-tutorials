@@ -68,7 +68,7 @@ Also, you may set your Agent to private mode according to your preference in cas
 
 [Why do you need to install the Agent?](https://testsigma.com/docs/agent/overview/)
 
-![install-testsigma-agent](https://docs.testsigma.com/tutorials/videos/automate-android-apps-using-local-devices/install-testsigma-agent.png)
+![install-testsigma-agent](https://docs.testsigma.com/images/tutorials/automate-android-apps-using-local-devices/install-testsigma-agent.png)
 
 
 ### Download & Install Testsigma Agent
@@ -78,7 +78,7 @@ Follow [this guide](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/
 
 Once the connection between the Testsigma server and the Agent is established, and registered, navigate to the Agents tab on the left navigation pane. The Agent that you registered will be displayed with all the available browsers in that Agent machine.
 
-![run-test-locally](https://docs.testsigma.com/tutorials/videos/automate-android-apps-using-local-devices/run-test-locally.png)
+![run-test-locally](https://docs.testsigma.com/images/tutorials/automate-android-apps-using-local-devices/run-test-locally.png)
 
 ---
 
@@ -126,13 +126,13 @@ Choose the **Local Devices** option.
 
 Upload the application you’d like to check. Upload the [.apk](https://www.makeuseof.com/tag/what-is-apk-file/) file of your application.
 
-![record-element](https://docs.testsigma.com/tutorials/videos/automate-android-apps-using-local-devices/record-element.png)
+![record-element](https://docs.testsigma.com/images/tutorials/automate-android-apps-using-local-devices/record-element.png)
 
 The recorder will now launch and will see the same app open up on your Android mobile too. The actions that you perform on the recorder will run on the mobile that you are connected to.
 
 Based on these interactions, the test steps will be generated automatically.
  
-![launched-recorder](https://docs.testsigma.com/tutorials/videos/automate-android-apps-using-local-devices/recorder-captures-actions.png)
+![launched-recorder](https://docs.testsigma.com/images/tutorials/automate-android-apps-using-local-devices/recorder-captures-actions.png)
 
 ---
 ## [Creating Test Steps](#run-tests-on-local-devices)
@@ -145,7 +145,7 @@ All your actions like a tap, entering some values on the app will be recorded an
 
 Once you have added the test steps that you want, click on the quit recorder icon. This saves all your steps. Your test is now ready!
 
-![recorder-captures-actions](https://docs.testsigma.com/tutorials/videos/automate-android-apps-using-local-devices/recorder-captures-actions.png)
+![recorder-captures-actions](https://docs.testsigma.com/images/tutorials/automate-android-apps-using-local-devices/recorder-captures-actions.png)
 
 ---
 ## [Run Tests on Local Devices](#run-tests-on-local-devices)
@@ -154,7 +154,7 @@ Simply click on Run. Choose Local Devices.
 
 Select your Android device and click Run Now.
 
-![run-tests-local-device](https://docs.testsigma.com/tutorials/videos/automate-android-apps-using-local-devices/run-tests-local-device.png)
+![run-tests-local-device](https://docs.testsigma.com/images/tutorials/automate-android-apps-using-local-devices/run-tests-local-device.png)
 
 That’s it!
 

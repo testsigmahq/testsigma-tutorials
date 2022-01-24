@@ -34,15 +34,15 @@ To automate the file upload action in Testsigma you need to upload the file(that
 
 2. Click on upload on the top right corner as shown in the image below.
 
-![uploads_testsigma](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-file-upload-cases/uploads_testsigma.png)
+![uploads_testsigma](https://docs.testsigma.com/images/tutorials/automate-file-upload-cases/uploads_testsigma.png)
 
 3. Choose and upload a file. The uploaded file will appear as shown below.
 
-![upload_list](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-file-upload-cases/upload_list.png)
+![upload_list](https://docs.testsigma.com/images/tutorials/automate-file-upload-cases/upload_list.png)
 
 4. Click on the blue color box beside the file to copy the file path.
 
-![file_path](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-file-upload-cases/file_path.png)
+![file_path](https://docs.testsigma.com/images/tutorials/automate-file-upload-cases/file_path.png)
 
 Now let us discuss how we can use these links in our Test Steps.
 
@@ -50,11 +50,11 @@ Now let us discuss how we can use these links in our Test Steps.
 
 6. Use NLP:  **Upload file testdata using the element element**.
 
-![upload_test_step](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-file-upload-cases/upload_test_step.png)
+![upload_test_step](https://docs.testsigma.com/images/tutorials/automate-file-upload-cases/upload_test_step.png)
 
 7. Replace testdata with the file path copied in step 4.
 
-![filepath_add](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-file-upload-cases/filepath_add.png)
+![filepath_add](https://docs.testsigma.com/images/tutorials/automate-file-upload-cases/filepath_add.png)
 
 8. Click Create.
 

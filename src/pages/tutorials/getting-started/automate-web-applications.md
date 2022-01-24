@@ -85,14 +85,15 @@ Let’s understand these in detail.
    For a detailed overview, check [here](https://testsigma.com/docs/projects/overview).
 
 2. Create a Test Case
-   For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete).
+   For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 
 3. Add Test Steps
    Once you create a Test Case, you will be redirected to the page where you can add all your Test Steps.
 
 This video should give you a quick insight to these 3 steps.
-[video link](https://docs.testsigma.com/tutorials/videos/getting-started-web/create-new-project-test-case-testsigma.mp4)
+
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-web/create-new-project-test-case-testsigma.mp4" width="600" height="400"></iframe>
 
 The next section explains how you can add steps to test the below sample scenario.
 
@@ -171,7 +172,7 @@ So, you only need to paste the website address (URL) you are testing. In this ca
 
 Paste this link in place of test data.
 
-![The default navigate to url step](https://docs.testsigma.com/tutorials/videos/getting-started-web/navigate-web-application-test-step.png)
+![The default navigate to url step](https://docs.testsigma.com/images/tutorials/getting-started-web/navigate-web-application-test-step.png)
 
 Click Create. And you just created your first step!
 
@@ -196,7 +197,7 @@ To add more steps additionally to the already recorded tests (like we discussed 
 You will now be taken to the Test Cases Details page where you will see all the steps that were captured as a result of your interactions with the application.
 
 Here’s a video that summarizes the steps we have discussed.
-[video link](https://docs.testsigma.com/tutorials/videos/getting-started-web/video1.mp4)
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-web/video1.mp4" width="600" height="400"></iframe>
 
 Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/overview/).
 
@@ -259,7 +260,7 @@ Click on element.
 Here, there’s no input you are providing so you only need the element (or the unique address of the button you are interacting with). To capture the element value using the Recorder, simply choose the action and click on the element and repeat the steps as we did before(previous step).
 
 Here’s a quick video of the steps:
-[video link](https://docs.testsigma.com/tutorials/videos/getting-started-web/video2.mp4)
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-web/video2.mp4" width="600" height="400"></iframe>
 
 ---
 
@@ -269,7 +270,7 @@ You can run your tests locally on your own machine or on the devices on the clou
 
 At the top right of your Test Steps page, click on Run.
 
-![Run the created test case on the cloud](https://docs.testsigma.com/tutorials/videos/getting-started-web/run-test-case-cloud-testsigma.png)
+![Run the created test case on the cloud](https://docs.testsigma.com/images/tutorials/getting-started-web/run-test-case-cloud-testsigma.png)
 
 Here’s how you can execute your tests. Learn more about Ad-hoc run [here](https://testsigma.com/docs/runs/adhoc-runs/).
 
@@ -283,7 +284,7 @@ After clicking on Run Now, you will be redirected to the Test Case results page 
 
 You would also find all previous run results in the Dry Runs tab. You can also share the results of your test run with your teammates as shown in the image below.
 
-![A quick test run](https://docs.testsigma.com/tutorials/videos/getting-started-web/dry-runs-list.gif)
+![A quick test run](https://docs.testsigma.com/images/tutorials/getting-started-web/dry-runs-list.gif)
 
 These reports can be viewed directly in the Testsigma application, or can be downloaded or emailed for sharing.
 
@@ -299,9 +300,9 @@ These reports can be viewed directly in the Testsigma application, or can be dow
 
 * Try out more advanced capabilities. Check out our detailed [documentation.](https://testsigma.com/docs/)
 
-Reach out to us through in app chat for a walkthrough or if you have any questions!
+Reach out to us through in app chat for a walk through or if you have any questions!
 
-JoinTestsigma’s Discord Server
+Join Testsigma’s Discord Server
 
 More tutorials here.
 

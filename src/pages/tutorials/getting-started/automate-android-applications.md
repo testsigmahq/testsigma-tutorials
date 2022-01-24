@@ -94,7 +94,7 @@ These projects (here, Android application) will also have a few sample Test Case
 
 Here’s a video that explains all the steps discussed so far.
 
-[android recorder (video)](https://docs.testsigma.com/tutorials/videos/getting-started-android/android_recorder.mp4)
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-android/android_recorder.mp4" width="600" height="400"></iframe>
 
 The next section explains how you can add steps to test a sample scenario.
 **Sample Test Scenario:** We will be using a sample login test scenario using the wordpress app where the user taps on login, enters an email ID and is sent a magic login link.
@@ -119,11 +119,11 @@ The Testsigma test recorder (web and mobile) is in-built and sits directly on yo
 
 Step1: To do this, simply click the **Record** option at the top of the test case details page.
 
-![record_button](https://docs.testsigma.com/tutorials/videos/getting-started-android/record_button.jpg)
+![record_button](https://docs.testsigma.com/images/tutorials/getting-started-android/record_button.jpg)
 
 Step 2: A new window will appear that has a few options in rows.
 
-![recorder_options](https://docs.testsigma.com/tutorials/videos/getting-started-android/recorder_options.png)
+![recorder_options](https://docs.testsigma.com/images/tutorials/getting-started-android/recorder_options.png)
 
 Let’s break down each row.
 
@@ -158,7 +158,7 @@ New to Testsigma Mobile Recorder? [Here](https://testsigma.com/tutorials/test-ca
 
 By default, the recorder will be in inspection mode (highlighted in yellow when you hover over any element).
 
-![inspector_mode](https://docs.testsigma.com/tutorials/videos/getting-started-android/inspector_mode.gif)
+![inspector_mode](https://docs.testsigma.com/images/tutorials/getting-started-android/inspector_mode.gif)
 
 Let’s try interacting with the Wordpress app we just uploaded.
 
@@ -168,7 +168,7 @@ To record the Tap action we have two options, clicking on the ‘Log in’ butto
 
 You’d see a new pane appear in the centre.
 
-![inspect_options](https://docs.testsigma.com/tutorials/videos/getting-started-android/inspect_options.png)
+![inspect_options](https://docs.testsigma.com/images/tutorials/getting-started-android/inspect_options.png)
 
 You’ll notice 3 options appear on top in the same pane:
 - Tap
@@ -179,13 +179,13 @@ You’ll notice 3 options appear on top in the same pane:
 So in this case click on tap and the recorder will perform a tap action in the app. Simultaneously this will generate an NLP statement in your test steps on the left hand side. 
 
 
-![tap_action](https://docs.testsigma.com/tutorials/videos/getting-started-android/tap_action.gif)
+![tap_action](https://docs.testsigma.com/images/tutorials/getting-started-android/tap_action.gif)
 
 **Test step 2:** Enter data into a field
 
 After the tap action you will be navigated into the next screen in the app where you have to enter the email ID in the field provided.
 
-![enter_data](https://docs.testsigma.com/tutorials/videos/getting-started-android/enter_data.gif)
+![enter_data](https://docs.testsigma.com/images/tutorials/getting-started-android/enter_data.gif)
 
 To do this in inspector mode, first click on the email field. Then from the actions choose the enter data option. A box will pop up where you’ll be able to enter the email you want to.
 
@@ -193,7 +193,7 @@ Like the previous step the same actions will be recorded as an NLP step.
 
 If you want to **clear** the value entered, clicking on the clear option after selecting that element in inspector mode will do that for you. And once again since we’re recording the test it will be converted into a test step in NLP.
 
-![clear_action](https://docs.testsigma.com/tutorials/videos/getting-started-android/clear_action.gif)
+![clear_action](https://docs.testsigma.com/images/tutorials/getting-started-android/clear_action.gif)
 
 **Test step 3** Click on next
 
@@ -209,11 +209,11 @@ After performing these basic actions we need to verify that they were successful
 
 So first click on the empty test step below the most recently created one in the recorder. From the drop down list select **‘Verify that the current page displays OPEN MAIL’**
 
-![verify_step_android](https://docs.testsigma.com/tutorials/videos/getting-started-android/verify_step_android.gif)
+![verify_step_android](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_step_android.gif)
 
 Here’s a summary of the steps we discussed so far.
 
-[android_add_recorder (video)](https://docs.testsigma.com/tutorials/videos/getting-started-android/android_add_recorder.mp4)
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-android/android_add_recorder.mp4" width="600" height="400"></iframe>
 
 ---
 
@@ -228,7 +228,7 @@ In this section you will learn:
 1. How to add steps and create a new element on the go
     Learn more about how to add steps manually from the test case details page [here](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/add-steps-manually/).
    
-   ![edit_elements_recorder](https://docs.testsigma.com/tutorials/videos/getting-started-android/edit_elements_recorder.gif)
+   ![edit_elements_recorder](https://docs.testsigma.com/images/tutorials/getting-started-android/edit_elements_recorder.gif)
 
 2. How to add steps using existing elements
    You can reuse them at any time by choosing the element you want to use/reuse in the Test Case. Simply pick the name of the Element.
@@ -236,7 +236,7 @@ In this section you will learn:
 3. How to add a simple verification steps
    Use the Verify action as used in Test Step 5 in the previous section.
    
-    ![verify_edit_in_test](https://docs.testsigma.com/tutorials/videos/getting-started-android/verify_edit_in_test.gif)
+    ![verify_edit_in_test](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_edit_in_test.gif)
 
 4. How to create multiple elements at once,
    Read [this](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/) to learn more.
@@ -244,7 +244,7 @@ In this section you will learn:
 
 Here’s an end-to-end video on how to create elements and add NLP steps manually for android apps
 
-[android_nl_steps (video)](https://docs.testsigma.com/tutorials/videos/getting-started-android/android_nl_steps.mp4)
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-android/android_nl_steps.mp4" width="600" height="400"></iframe>
 
 ---
 ## [Run your test case](#run-your-test-case)
@@ -253,7 +253,7 @@ You can run your tests locally on your own machine or on the devices on the clou
 
 At the top right of your Test Steps page, click on **Run**.
 
-![run_android_app](https://docs.testsigma.com/tutorials/videos/getting-started-android/run_android_app.png)
+![run_android_app](https://docs.testsigma.com/images/tutorials/getting-started-android/run_android_app.png)
 
 Choose the device you wish to run your tests on, the device configurations, or how you’d like the screenshots captured, etc. You can choose these options based on your preference.
 
@@ -267,13 +267,13 @@ After running the test case you’ll be able to view the results of your test ru
 
 You can also view screenshots of each test step execution as well as watch a video of the entire test run.
 
-![analyze_results_android](https://docs.testsigma.com/tutorials/videos/getting-started-android/analyze_results_android.png)
+![analyze_results_android](https://docs.testsigma.com/images/tutorials/getting-started-android/analyze_results_android.png)
 
 Here all the test steps have passed successfully. In case if a test step fails you’ll be able to see the error message  provided by clicking on the test step along with the screenshot. You can also check the video recording to see what went wrong in detail.
 
 Here’s an example of a failed test step:
 
-![Error_android_failed_step](https://docs.testsigma.com/tutorials/videos/getting-started-android/error_android_failed_step.png)
+![Error_android_failed_step](https://docs.testsigma.com/images/tutorials/getting-started-android/error_android_failed_step.png)
 
 In this particular case we fixed the error by increasing the wait time of the assertion to ensure the app screen loaded completely before checking for the presence of the text.
 

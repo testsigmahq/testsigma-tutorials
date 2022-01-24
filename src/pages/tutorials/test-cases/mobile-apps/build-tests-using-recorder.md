@@ -45,15 +45,15 @@ This tutorial walks you through Testsigma’s mobile recorder and how you can cr
 
 To launch the Recorder, simply click on the **Record** button at the top of the Test Cases Details page.
 
-![launch-app-step](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-apps/launch-app-step.png)
+![launch-app-step](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/launch-app-step.png)
 
 Choose the test environment (local device or cloud options), the device and version you’d like your tests to execute on. Also, upload the .ipa file (for your iOS app) or the .apk file (for your Android app). If already uploaded, simply choose the one you wish to test from the dropdown. Click **Record**.
 
-![launch-testsigma-recorder](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-apps/launch-testsigma-recorder.png)
+![launch-testsigma-recorder](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/launch-testsigma-recorder.png)
 
 The Mobile recorder will now launch.
 
-![testsigma-mobile-recorder-launches](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-apps/testsigma-mobile-recorder-launches.png)
+![testsigma-mobile-recorder-launches](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/testsigma-mobile-recorder-launches.png)
 
 ---
 
@@ -61,7 +61,7 @@ The Mobile recorder will now launch.
 
 On the new window that opens up, you will see 3 panes; one in the right, one in the left and one in the centre. Let’s explore all 3 of them.
 
-![testsigma-mobile-recorder-options](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-apps/testsigma-mobile-recorder-options.png)
+![testsigma-mobile-recorder-options](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/testsigma-mobile-recorder-options.png)
 
 1. **The right pane (recorder)**
 
@@ -167,7 +167,7 @@ To perform let’s say a Verify action manually, start typing Verify on the test
 
 Refer to 3.30 seconds in [this video](https://drive.google.com/file/d/16RKh4j9atEh9iz29bORlw3Qx5eTsbhRi/view?usp=sharing).
 
-![verify-step-testsigma](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-apps/verify-step-testsigma.png)
+![verify-step-testsigma](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/verify-step-testsigma.png)
 
 ### Edit element manually
 
@@ -192,7 +192,7 @@ These steps within the step group would be run automatically in each place they 
 Here’s a video that demonstrates how.
 [video link](https://drive.google.com/file/d/1ztGeAtoFQmQ6YOBELg_oVmmuh_k4yS0S/view?usp=sharing)
 
-![add-step-group-testsigma](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-apps/add-step-group-testsigma.png)
+![add-step-group-testsigma](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/add-step-group-testsigma.png)
 
 ### Add Conditional IF
 Additionally, you may add an **If condition** or play around with loops by choosing the Test Step type you prefer from the test step type dropdown and continue to record your steps.
@@ -205,7 +205,7 @@ Click on **Add Step** to add more steps under the IF condition which will execut
 
 Here’s how you can do it:
 
-![if-condition-testsigma](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-apps/if-condition-testsigma.gif)
+![if-condition-testsigma](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/if-condition-testsigma.gif)
 
 **Resources you may check out:**
 

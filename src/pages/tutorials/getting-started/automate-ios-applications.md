@@ -91,7 +91,8 @@ Let’s understand these in detail.
    Once you create a Test Case, you will be redirected to the page where you can add all your Test Steps.
 
 Here’s a video that explains all the steps discussed so far.
-[video link](https://docs.testsigma.com/tutorials/videos/getting-started-ios/recorded-steps-getting-started-testsigma-new-user-onboarded.mp4)
+
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-ios/recorded-steps-getting-started-testsigma-new-user-onboarded.mp4" width="600" height="400"></iframe>
 
 
 The next section explains how you can add steps to test a sample scenario.
@@ -117,11 +118,11 @@ The Testsigma test recorder (web and mobile) is in-built and sits directly on yo
 
 Step1: To do this, simply click the **Record** option at the top of the test case details page.
 
-![Click record to start recording](https://docs.testsigma.com/tutorials/videos/getting-started-ios/recorder-start-record-option.jpg)
+![Click record to start recording](https://docs.testsigma.com/images/tutorials/getting-started-ios/recorder-start-record-option.jpg)
 
 Step 2: A new window will appear that has a few options in rows.
 
-![Options to select before you start recording](https://docs.testsigma.com/tutorials/videos/getting-started-ios/recorder-window.png)
+![Options to select before you start recording](https://docs.testsigma.com/images/tutorials/getting-started-ios/recorder-window.png)
 
 Let’s break down each row.
 
@@ -149,7 +150,7 @@ To familiarize with Testsigma, you may choose any application that is already av
 
 For this, the Twitter app’s ipa file needs to be uploaded as discussed earlier. Click on **Upload**. Wait for the app to be uploaded.
 
-![Options to select before recording](https://docs.testsigma.com/tutorials/videos/getting-started-ios/record-steps-ios-app-testing.jpg)
+![Options to select before recording](https://docs.testsigma.com/images/tutorials/getting-started-ios/record-steps-ios-app-testing.jpg)
 
 Once done, click **Record**. Upon clicking **Record**, the Testsigma Mobile Recorder will be launched.
 
@@ -159,7 +160,7 @@ New to Testsigma Mobile Recorder? [Here](https://testsigma.com/tutorials/test-ca
 
 By default, the recorder will be in inspection mode (highlighted in yellow when you hover over any element).
 
-![Inspection mode of test recorder](https://docs.testsigma.com/tutorials/videos/getting-started-ios/recorder-default-inspection-mode.gif)
+![Inspection mode of test recorder](https://docs.testsigma.com/images/tutorials/getting-started-ios/recorder-default-inspection-mode.gif)
 
 Let’s try interacting with the Twitter app we just uploaded.
 
@@ -169,7 +170,7 @@ To tap on _“Create Account”_ that is displayed on the Twitter app screen, cl
 
 You’d see a new pane appear in the centre.
 
-![Clicking a button on the application screen](https://docs.testsigma.com/tutorials/videos/getting-started-ios/click-element.png)
+![Clicking a button on the application screen](https://docs.testsigma.com/images/tutorials/getting-started-ios/click-element.png)
 
 At the top, you will find these options : **Tap, Enter Data and Clear.**
 
@@ -177,7 +178,7 @@ Click on **Tap.**
 
 This will perform a click/tap action and will take you to the next screen on the Twitter app. Consecutively, you will notice that this will also generate a test step in natural language automatically.
 
-![Perform a click/tap action](https://docs.testsigma.com/tutorials/videos/getting-started-ios/perform-tap-action.png) 
+![Perform a click/tap action](https://docs.testsigma.com/images/tutorials/getting-started-ios/perform-tap-action.png) 
 
 **Test Step 2.** Enter some data
 
@@ -189,7 +190,7 @@ Choose **Enter Data** from the actions at the top of the centre pane.
 
 Now all you need to do is type in the Name (here, _John Doe_) you wish to enter in the **Enter data** form that appears.
  
-![Template to enter some values](https://docs.testsigma.com/tutorials/videos/getting-started-ios/enter-text-field.gif)
+![Template to enter some values](https://docs.testsigma.com/images/tutorials/getting-started-ios/enter-text-field.gif)
 
 **Test Step 3.** Clear data
 
@@ -220,12 +221,12 @@ Since we are verifying a text, choose the **“Verify that the current page disp
 
 You only need to replace the test data part with the actual text you copied, let’s say, _“Customize your experience”_ from the inspector.
 
-![How to add a verify step](https://docs.testsigma.com/tutorials/videos/getting-started-ios/verify-nlp-template.gif)
+![How to add a verify step](https://docs.testsigma.com/images/tutorials/getting-started-ios/verify-nlp-template.gif)
 
 Paste this in place of “test data”. Click **Create** and you are done!
 
 Here’s a summary of the steps we discussed so far.
-[video link](https://docs.testsigma.com/tutorials/videos/getting-started-ios/recorded-steps-getting-started-testsigma-new.mp4)
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-ios/recorded-steps-getting-started-testsigma-new.mp4" width="600" height="400"></iframe>
 
 To learn all other options available in the test recorder [click here](https://testsignma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
@@ -241,12 +242,12 @@ In this section you will learn:
 1. How to add steps and create a new element on the go
    Learn more about how to add steps manually from the test case details page [here](https://testsigma.com/docs/test-cases/create-steps-nl/ios-apps/add-steps-manually/).
 
-![Add more steps manually at any time](https://docs.testsigma.com/tutorials/videos/getting-started-ios/add-nlp-test-steps-manually.gif)
+![Add more steps manually at any time](https://docs.testsigma.com/images/tutorials/getting-started-ios/add-nlp-test-steps-manually.gif)
 
 2. How to add steps using existing elements
    You can reuse them at any time by choosing the element you want to use/reuse in the Test Case. Simply pick the name of the Element.
 
-![Reuse an already created element in any test step easily](https://docs.testsigma.com/tutorials/videos/getting-started-ios/reuse-already-added-element-in-test-step.gif)
+![Reuse an already created element in any test step easily](https://docs.testsigma.com/images/tutorials/getting-started-ios/reuse-already-added-element-in-test-step.gif)
 
 3. How to add a simple verification steps
    Use the Verify action as used in Test Step 5 in the previous section.
@@ -268,14 +269,14 @@ Click **Run Now**.
 
 Here’s a video that shows you a sample test run done for the test case we created
 
-[video link](https://docs.testsigma.com/tutorials/videos/getting-started-ios/dry-test-step-result-details-al-powered-test-automation-platform-testsigma.mp4)
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-ios/dry-test-step-result-details-al-powered-test-automation-platform-testsigma.mp4" width="600" height="400"></iframe>
 
 ---
 ## [Debugging Results](#debugging-results)
 
 From the video, you’d see that the one step failed.
 
-![Drill down to test step failure](https://docs.testsigma.com/tutorials/videos/getting-started-ios/debug-test-step-failure.png)
+![Drill down to test step failure](https://docs.testsigma.com/images/tutorials/getting-started-ios/debug-test-step-failure.png)
 
 Let’s debug this and try to understand the reason for failure with the help of the suggestion engine.
 

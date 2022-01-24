@@ -120,7 +120,7 @@ Paste this link in place of test data.
 
 3. Click on Login
 
-![step_group_recorder](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/step_group_recorder.png)
+![step_group_recorder](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/step_group_recorder.png)
 
 Once you’re done adding the test steps you’ve completed the required login scenario for the step group. Go back to the test cases page.
 
@@ -130,7 +130,7 @@ Once you’re done adding the test steps you’ve completed the required login s
 
 **Step 1:**  Navigate to the test case details page. Now we need to add the Step group you just created as the first step in this test scenario. Click on the NLP symbol on the left of your test step. From the drop down select the Step Group option. 
 
-![step_options](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/step_options.png)
+![step_options](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/step_options.png)
 
 **Step 2:** Click on the **Record** button at the top right to start recording your interactions.
 
@@ -146,19 +146,19 @@ Perform the following user actions on screen while the recorder is running. You 
 
 2. Check the checkbox Before 6AM
 
-![web_recorder_Tutorial_2](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_2.png)
+![web_recorder_Tutorial_2](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/web_recorder_tutorial_2.png)
 
 3. Click on More Filters
    
 4. Click on Apply
 
-![web_recorder_Tutorial_3](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_3.png)
+![web_recorder_Tutorial_3](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/web_recorder_tutorial_3.png)
 
 5. Click on Sort By
 
 6. Click on Book Now for any of the flight options
 
-![web_recorder_Tutorial_4](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_4.png)
+![web_recorder_Tutorial_4](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/web_recorder_tutorial_4.png)
 
 7. Click on Continue
 
@@ -170,7 +170,7 @@ Perform the following user actions on screen while the recorder is running. You 
 
 11. Click on Continue
 
-![web_recorder_Tutorial_5](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_5.png)
+![web_recorder_Tutorial_5](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/web_recorder_tutorial_5.png)
 
 12. Click on Net Banking or any other option you prefer
 
@@ -184,11 +184,11 @@ Perform the following user actions on screen while the recorder is running. You 
 
 This statement ensures that we’ve executed all the steps successfully and the ‘Booking a flight’ scenario reached the final page.
 
-![web_recorder_Tutorial_6](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_6.png)
+![web_recorder_Tutorial_6](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/web_recorder_tutorial_6.png)
 
 **Step 4:** After recording all the actions and adding the required step, click on the finish button in the recorder and you’ll be redirected to the test case screen.  In the test case screen you’ll find all your test steps recorded with the elements you’ve interacted with.
 
-![web_recorder_Tutorial_7](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_7.png)
+![web_recorder_Tutorial_7](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/web_recorder_tutorial_7.png)
 
 
 ---
@@ -196,7 +196,7 @@ This statement ensures that we’ve executed all the steps successfully and the 
 
 Once you’ve completed writing all your test steps, click on the Run button on the top right hand side of your screen.
 
-![run_web_recorder](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/run_web_recorder.png)
+![run_web_recorder](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/run_web_recorder.png)
 
 You can run your tests locally on your own machine or on the devices on the cloud (that you may not necessarily own!)
 
@@ -205,7 +205,7 @@ You can run your tests locally on your own machine or on the devices on the clou
 
 After running the test case you’ll be able to view the results of your test run for each step by clicking on each of them.
 
-![web_recorder_Tutorial_8](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_8.png)
+![web_recorder_Tutorial_8](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_8.png)
 
 You can also view screenshots of each test step execution as well as watch a video of the entire test run.
 

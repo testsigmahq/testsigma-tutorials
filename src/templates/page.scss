@@ -23,9 +23,39 @@ body{
 
   img {
     max-width: 100%;
-    margin: 30px auto;
     height: auto;
     width: 100%;
+    background: #f4f4f4;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 4px;
+    &::before {
+      content: " ";
+      display: block;
+
+      position: absolute;
+      top: -10px;
+      left: 0;
+      height: calc(100% + 10px);
+      width: 100%;
+      background-color: rgb(249, 250, 251);
+      border: 2px dotted rgb(200, 200, 200);
+      border-radius: 5px;
+    }
+
+    &::after {
+      content: " ☹ " " Broken Image of " attr(alt);
+      display: block;
+      font-size: 16px;
+      font-style: normal;
+      color: rgb(0, 0, 0);
+
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
   }
 
   // WIP - need to get ul li markers to move away from text

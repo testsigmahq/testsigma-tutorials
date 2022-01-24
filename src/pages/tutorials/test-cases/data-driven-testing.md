@@ -45,11 +45,11 @@ The Test Steps iterates itself and subsequent rows of data are fed to the Test S
 
 2. Select the Test Data which you have created as shown below.
 
-![Choose a test data profile from the list](https://docs.testsigma.com/tutorials/videos/data-driven-testing/choose-a-test-data-profile.png)
+![Choose a test data profile from the list](https://docs.testsigma.com/images/tutorials/data-driven-testing/choose-a-test-data-profile.png)
 
 3. Select the Test data profile you want to add to your test cases and enable Data Driven as shown below:
 
-![Toggle to enable data driven testing](https://docs.testsigma.com/tutorials/videos/data-driven-testing/enable-data-driven-testing.png)
+![Toggle to enable data driven testing](https://docs.testsigma.com/images/tutorials/data-driven-testing/enable-data-driven-testing.png)
 
 Enabling the data-driven toggle will enable the test to run multiple times based on the number of rows available in Test Data Profile. For. If the data profile has 5 rows(sets) the test will run 5 times automatically using each data set(row) everytime.
 
@@ -62,15 +62,15 @@ Enabling the data-driven toggle will enable the test to run multiple times based
 
 1. Back in your test cases, while creating test steps, remove “test data”  and  select @|Parameter| from the drop down as shown below:
 
-![Choose the test data parameter to use in your test step](https://docs.testsigma.com/tutorials/videos/data-driven-testing/choose-test-data-type.png)
+![Choose the test data parameter to use in your test step](https://docs.testsigma.com/images/tutorials/data-driven-testing/choose-test-data-type.png)
 
 2. Now delete the “test data“ placeholder and choose Parameter from the drop-down options
 
-![Choose parameter type test data](https://docs.testsigma.com/tutorials/videos/data-driven-testing/choose-test-data-type-parameter-test-data-type.png)
+![Choose parameter type test data](https://docs.testsigma.com/images/tutorials/data-driven-testing/choose-test-data-type-parameter-test-data-type.png)
 
 3.  Now an overlay will open with all available parameters in the data profile.
 
-![Replace with parameter values](https://docs.testsigma.com/tutorials/videos/data-driven-testing/add-parameter-test-data-values.gif)
+![Replace with parameter values](https://docs.testsigma.com/images/tutorials/data-driven-testing/add-parameter-test-data-values.gif)
 
 Now, your test case will use the parameter value from your test data profile.
 
@@ -82,5 +82,5 @@ Now, your test case will use the parameter value from your test data profile.
 
 2. Once the test run is complete you will get results for each of the data sets. Like in the screenshot below:
 
-![run result status of your test dat sets](https://docs.testsigma.com/tutorials/videos/data-driven-testing/run-status-test-data-profiles.png)
+![run result status of your test dat sets](https://docs.testsigma.com/images/tutorials/data-driven-testing/run-status-test-data-profiles.png)
 

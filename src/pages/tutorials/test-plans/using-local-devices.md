@@ -40,55 +40,55 @@ Testsigma Agent is a java utility program that lets you execute your test cases/
 
 **Navigation: Test development > Test Plan.** Click on  **+ Test Plan** button as shown in the screenshot below:
 
-![Create a test plan for execution](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/create-test-plan.png)
+![Create a test plan for execution](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/create-test-plan.png)
 
 The **Create Test Plan** screen will appear:
 
-![Enter details to create a test plan](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/create-test-plan-settings.png)
+![Enter details to create a test plan](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/create-test-plan-settings.png)
 
 Enter the **Test Plan Name** in the Text box and select **Test Lab** as **Local Devices**. Click on **Next**.
 
-![Add a new test plan name](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/add-test-plan-name.png)
+![Add a new test plan name](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/add-test-plan-name.png)
 
 Once you click on the Next button, you will be asked to select the test machines. Here in the Test Machine field, you need to select the device on which you have set up the Testsigma Agent. See [how to set up Testsigma Agent on your local device/machine.](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/)
 
-![Select test machine for execution](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/test-plan-select-test-machine.png)
+![Select test machine for execution](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/test-plan-select-test-machine.png)
 
 You can also select the browser on which you want to run your test plan.
 
-![Select test machine and browser settings](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/test-plan-select-test-machine.png)
+![Select test machine and browser settings](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/test-plan-select-test-machine.png)
 
 Click on the Add button.
 
-![Add test machine](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/add-button-test-machne.png)
+![Add test machine](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/add-button-test-machne.png)
 
 Click on the **+ add test suites** and add test suites as you like. In this example, we have two test suites. Select the test suites you want test plan execution and click on the **add** button.
 
-![Select test suites to add](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/select-test-suites.png)
+![Select test suites to add](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/select-test-suites.png)
 
 Click on the **next** button.
 
-![Add a new test machine](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/add-test-machine.png)
+![Add a new test machine](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/add-test-machine.png)
 
 The Test Plan Settings page will come up, as shown below.
 
-![Create a new test plan](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/create-test-plan.png)
+![Create a new test plan](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/create-test-plan.png)
 
 Select **notifications** and **additional settings** and **recovery actions**. Click on **create** button.
 
-![Test plan settings to add new](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/add-test-plan-settings.gif)
+![Test plan settings to add new](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/add-test-plan-settings.gif)
 
 Click on the **Run Now** button.
 
-![Start by clicking on Run button](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/start-execution-click-run.png)
+![Start by clicking on Run button](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/start-execution-click-run.png)
 
 To verify the execution, go to **Agents** and search for your localhost machine like this:
 
-![Look for the agent using the Agent name](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/search-agent-name.gif)
+![Look for the agent using the Agent name](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/search-agent-name.gif)
 
 You can also check the same under **Test development > Run Results.**
 
-![Click to view the run results](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/view-run-results-testsigma.png)
+![Click to view the run results](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/view-run-results-testsigma.png)
 
 [[info | NOTE:]]
 | Test plan execution results will be displayed under Run Results and Test Case results will be put under the dry runs tab.
@@ -112,23 +112,23 @@ Once you have connected your mobile to your laptop device via USB cable and enab
 [[info | NOTE:]]
 | **Make sure you have selected an Android application under your project.**
 
-![Make sure to select an Android app project](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/android-app-project.gif)
+![Make sure to select an Android app project](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/android-app-project.gif)
 
 Now go to the test case you want to run on your device and click on Run.
 
-![run-test-case](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/run-test-case.png)
+![run-test-case](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/run-test-case.png)
 
 Select **Local devices** under **Select Test Lab**.  Your device will appear in **Select Test Device**. Upload an APK file under **uploads** then click on the **Run Now** button.
 
-![select-test-environment](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/select-test-environment.gif)
+![select-test-environment](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/select-test-environment.gif)
 
 You can observe your mobile screen to see the test running once the execution begins. In the Testsimga app, you can see the page below:
 
-![Test execution is in progress](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/execution-in-progress.png)
+![Test execution is in progress](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/execution-in-progress.png)
 
 To verify your runs, click on the dry runs tab where all your test results are displayed.
 
-![dry-run-test-result](https://docs.testsigma.com/tutorials/videos/run-tests-on-local-devices/dry-run-test-result.png)
+![dry-run-test-result](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/dry-run-test-result.png)
 
 In the walkthrough, we executed a single test case on a local mobile device, but you can bunch multiple test cases into a test suite and run them in the test plan. Once your Test Plan is ready, you can follow the steps as shown in the web application local device at the beginning of this article and select your mobile device for execution. 
 

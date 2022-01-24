@@ -103,9 +103,9 @@ This test checks for the Expected Status Code of the Response for a simple GET r
 
 **Expected Status Code:** 200
 
-![Create a Rest API Step for a GET request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/create-rest-api-steps-get-request-details.png)
+![Create a Rest API Step for a GET request](https://docs.testsigma.com/images/tutorials/automate-rest-api/create-rest-api-steps-get-request-details.png)
 
-![Verify Response Status Code for a GET request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/verify-response-status-code.png)
+![Verify Response Status Code for a GET request](https://docs.testsigma.com/images/tutorials/automate-rest-api/verify-response-status-code.png)
 
 ---
 ## [2. Test the Expected Response Header for a GET request](#2-test-the-expected-response-header-for-a-get-request)
@@ -122,7 +122,7 @@ This test checks for the Expected Header of the Response for a simple GET reques
 
 Please check this article for more details on comparison Types - [Comparison Modes in Web Services Testing](https://docs.google.com/document/d/1T4NvpIgj2DoKuAcrJNqimIiBc-v-Q0dKO0hClPQtv9o/edit#)
 
-![Verify Response Header for a GET Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/verify-response-expected-response-header.png)
+![Verify Response Header for a GET Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/verify-response-expected-response-header.png)
 
 ---
 ## [3. Test the Expected Response Body for a GET request](#3-test-the-expected-response-body-for-a-get-request)
@@ -139,9 +139,9 @@ This test checks for the Expected Body Content of the Response for a simple GET 
 
 **Body Comparison Type:** Lenient
 
-![Get request to validate user data](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/get-request-validate-user-data.png)
+![Get request to validate user data](https://docs.testsigma.com/images/tutorials/automate-rest-api/get-request-validate-user-data.png)
 
-![Verify Response Body for a GET Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/verify-response-expected-body-content.png)
+![Verify Response Body for a GET Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/verify-response-expected-body-content.png)
 
 ---
 ## [4. Create a post using POST request and test the Expected Status Code, Header, and Body](#4-create-a-post-using-post-request-and-test-the-expected-status-code-header-and-body)
@@ -162,9 +162,9 @@ This test creates a post using POST request and checks for the Header, Body and 
 
 **Comparison Type:** Lenient
 
-![Create a REST API Step for POST Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/post-request-create-rest-api-step.png)
+![Create a REST API Step for POST Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/post-request-create-rest-api-step.png)
 
-![Verify Header and Body for POST Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/post-request-verify-header-body.png)
+![Verify Header and Body for POST Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/post-request-verify-header-body.png)
 
 ---
 
@@ -188,9 +188,9 @@ This test updates a post using PUT request and checks for the Header, Body and S
 
 **Comparison Type:** Lenient
 
-![Create a REST API Step for PUT Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/put-request-create-rest-api-step.png)
+![Create a REST API Step for PUT Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/put-request-create-rest-api-step.png)
 
-![Verify Response Header for PUT Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/put-request-verify-response-header.png)
+![Verify Response Header for PUT Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/put-request-verify-response-header.png)
 
 ---
 ## [6. Delete a user using DELETE request and test the Expected Response](#6-delete-a-user-using-delete-request-and-test-the-expected-response)
@@ -209,6 +209,6 @@ This test deletes a user and checks the Expected Header Response for a simple DE
 
 **Comparison Type:** Lenient
 
-![Create a REST API Step for DELETE Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/delete-request-create-rest-api-step.png)
+![Create a REST API Step for DELETE Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/delete-request-create-rest-api-step.png)
 
-![Verify the Response Status for DELETE Request](https://s3.amazonaws.com/static-docs.testsigma.com/tutorials/videos/automate-rest-api/delete-request-verify-response-status.png)
+![Verify the Response Status for DELETE Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/delete-request-verify-response-status.png)

@@ -9,6 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
+import favicon from './../images/favicon-new.ico';
 
 function SEO({
                  lang, meta, title, slug,
@@ -85,6 +86,8 @@ function SEO({
                 },
             ].concat(meta)}
         >
+            {/* fav icon */}
+            <link rel="icon" href={favicon} />
             {/* fonts */}
             <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
             <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
