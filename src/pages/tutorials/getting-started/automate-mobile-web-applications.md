@@ -163,7 +163,7 @@ Here’s a **video** that shows all the steps we’ve performed so far.
 ---
 ## [Method 2: Write automated test steps in plain English (manually)](#method-2-write-automated-test-steps-in-plain-english-manually)
 
-The second way to create a test case is using simple English. For a detailed guide into authoring your test case you can refer to this [documentation](https://testsigma.com/docs/test-cases/step-types/natural-language/). Here’s list of  [actions](https://drive.google.com/file/d/1Q_tHpXQ5IxZmTW1KHTux2Ptr3n2GyS5n/view?usp=sharing)  that we support by default.
+The second way to create a test case is using simple English. For a detailed guide into authoring your test case you can refer to this [documentation](https://testsigma.com/docs/test-cases/step-types/natural-language/). Here’s list of  [actions](https://docs.testsigma.com/videos/tutorials/natural_language_actions.webm)  that we support by default.
 
 Now let’s look at how to create the same set of steps as in the recorder using simple English.
 

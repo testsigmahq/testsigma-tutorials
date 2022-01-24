@@ -212,7 +212,7 @@ Testsigma lets you create automated tests easily in plain natural language.
 
 This is our recommended approach. It’s easy and readable!
 
-Check out [this](https://testsigma.com/docs/test-cases/step-types/natural-language/) page to learn how to write steps from scratch in plain natural language! Here’s a list of some [actions](https://drive.google.com/file/d/1Q_tHpXQ5IxZmTW1KHTux2Ptr3n2GyS5n/view?usp=sharing) Testsigma provides.
+Check out [this](https://testsigma.com/docs/test-cases/step-types/natural-language/) page to learn how to write steps from scratch in plain natural language! Here’s a list of some [actions](https://docs.testsigma.com/videos/tutorials/natural_language_actions.webm) Testsigma provides.
 
 Here’s how you can manually create the steps using simple English for the same set of actions we performed in Method 1.
 

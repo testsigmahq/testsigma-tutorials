@@ -39,7 +39,7 @@ contextual_links:
 
 In order to create an account, navigate to [https://testsigma.com/signup](https://testsigma.com/signup)
 
-![Create your Testsigma account](https://docs.testsigma.com/tutorials/videos/setup-agents-to-run-on-local-devices/testsigma-create-account.png)
+![Create your Testsigma account](https://docs.testsigma.com/images/tutorials/setup-agents-to-run-on-local-devices/testsigma-create-account.png)
 
 After successful sign up, you will receive a confirmation email. Make sure to confirm so your account will be activated before you begin.
 
@@ -83,7 +83,7 @@ Once your Testsigma agent is up and running and shows the STARTED status, click 
 
 **Agents > Add a new Agent**
 
-![Add a new Testsigma Agent](https://docs.testsigma.com/tutorials/videos/setup-agents-to-run-on-local-devices/add-new-agent-testsigma.png)
+![Add a new Testsigma Agent](https://docs.testsigma.com/images/tutorials/setup-agents-to-run-on-local-devices/add-new-agent-testsigma.png)
 
 Enter a title/name for your machine and click on the Save button.
 

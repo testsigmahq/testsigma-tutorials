@@ -290,7 +290,9 @@ Add wait time after the mobile number is entered so that there is time for the b
 
 Type **“Wait for test data seconds"**. Replace the test data part with, say, 10 seconds.
 
-Let’s try [re-running this test case](https://drive.google.com/file/d/1XgHhNPzR3Kl4kpVGVX0KCyvx7ZZUzDrs/view?usp=sharing) now.
+Let’s try re-running this test case now.
+
+<iframe src="docs.testsigma.com/videos/tutorials/getting-started-ios/ad-hok-run.mp4" width="600" height="400"></iframe>
 
 The test has now passed.
 

@@ -114,7 +114,7 @@ Once you create a project you will be taken to a test case page. Click on **+Tes
 
 Here’s a summary of the steps discussed so far:
 
-[video link](https://drive.google.com/file/d/1YuZFGH2uVev4fj5VsWTvd4Nff4kKafBt/view?usp=sharing)
+<iframe src="https://docs.testsigma.com/videos/tutorials/create-test-case.mp4" width="600" height="400"></iframe>
 
 ---
 

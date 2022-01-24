@@ -200,7 +200,8 @@ If you chose an existing iOS application, from the Test Cases page, click **Crea
 
 Here’s a summary of it:
 
-[video link](https://drive.google.com/file/d/1lu8aA5zQITuxygdXVEBqH1rAWtOLw3Wu/view?usp=sharing)
+<iframe src="https://docs.testsigma.com/videos/tutorials/create-project.mp4" width="600" height="400"></iframe>
+
 
 ---
 ## [Launch Test Recorder & Record Steps](#launch-test-recorder--record-steps)
@@ -211,7 +212,7 @@ Simply choose the **Record** option and then click on **Start recording** to imm
 
 Once you click Record, choose the local device option.
 
-[video link](https://drive.google.com/file/d/1PFTij-739dJzMgffdMunBpRwPd-Wr-UD/view?usp=sharing)
+<iframe src="https://docs.testsigma.com/videos/tutorials/automate-ios-apps-using-local-devices/launch-test-recorder--record-steps.mp4" width="600" height="400"></iframe>
 
 Upload the application you’d like to check. Upload the **.ipa** file of your application.
 

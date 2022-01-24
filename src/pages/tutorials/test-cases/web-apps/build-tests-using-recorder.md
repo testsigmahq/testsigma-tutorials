@@ -205,7 +205,7 @@ You can run your tests locally on your own machine or on the devices on the clou
 
 After running the test case you’ll be able to view the results of your test run for each step by clicking on each of them.
 
-![web_recorder_Tutorial_8](https://docs.testsigma.com/tutorials/videos/build-tests-using-recorder-web/web_recorder_Tutorial_8.png)
+![web_recorder_Tutorial_8](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-web/web_recorder_tutorial_8.png)
 
 You can also view screenshots of each test step execution as well as watch a video of the entire test run.
 

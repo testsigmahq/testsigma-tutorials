@@ -139,7 +139,8 @@ Learn more about [Test Recorder here.](https://testsoigma.com/docs/test-cases/cr
 
 Here’s a sample scenario that we are going to automate.
 
-[video link](https://drive.google.com/file/d/16RKh4j9atEh9iz29bORlw3Qx5eTsbhRi/view?usp=sharing)
+<iframe src="https://docs.testsigma.com/videos/tutorials/build-tests-using-recorder-apps/record-steps.mp4" width="600" height="400"></iframe>
+
 
 Once the app launches, the recorder will be in inspection mode, ready to automatically record interactions, also the element details that you are interacting with.
 
@@ -165,7 +166,9 @@ Additionally, you can perform actions like Verify, Wait, etc from the Testsigma 
 
 To perform let’s say a Verify action manually, start typing Verify on the test editor on the left pane and choose the Verify grammar you prefer from the list of templates.
 
-Refer to 3.30 seconds in [this video](https://drive.google.com/file/d/16RKh4j9atEh9iz29bORlw3Qx5eTsbhRi/view?usp=sharing).
+Refer to 3.30 seconds in 
+
+<iframe src="https://docs.testsigma.com/videos/tutorials/build-tests-using-recorder-apps/record-steps.mp4" width="600" height="400"></iframe>
 
 ![verify-step-testsigma](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/verify-step-testsigma.png)
 
@@ -173,7 +176,7 @@ Refer to 3.30 seconds in [this video](https://drive.google.com/file/d/16RKh4j9at
 
 You can edit an element by clicking on the element and clicking on the 3 dots option and you can either manually enter the locator/element details or record by clicking on the field on the recorder.
 
-Here’s a [quick video](https://drive.google.com/file/d/1VJaZLTshZ_-mlujo6mujN2My6WfhSqDY/view?usp=sharing) that demonstrates this.
+Here’s a [quick video](https://docs.testsigma.com/videos/tutorials/edit_elements_manually.mp4) that demonstrates this.
 
 In addition to plain natural language steps, Testsigma lets you create Step Groups, conditional loops etc.
 
@@ -190,7 +193,8 @@ If you are using a step group that is already available, you may simply choose t
 These steps within the step group would be run automatically in each place they are in use.
 
 Here’s a video that demonstrates how.
-[video link](https://drive.google.com/file/d/1ztGeAtoFQmQ6YOBELg_oVmmuh_k4yS0S/view?usp=sharing)
+
+<iframe src="https://docs.testsigma.com/videos/tutorials/mobile-apps/step-groups.webm" width="600" height="400"></iframe>
 
 ![add-step-group-testsigma](https://docs.testsigma.com/images/tutorials/build-tests-using-recorder-apps/add-step-group-testsigma.png)
 
