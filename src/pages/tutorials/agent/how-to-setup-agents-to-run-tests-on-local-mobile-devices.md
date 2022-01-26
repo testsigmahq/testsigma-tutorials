@@ -104,6 +104,6 @@ Once the Agent is set up and running, you can prep your mobile device to start a
 ---
 ## [Next Steps](#next-steps)
 
-1. [Automate iOS apps on your local PC](https://testsigma.com/tutorials/test-cases/android-apps/build-tests-using-local-devices/)
+1. [Automate iOS apps on your local PC](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/)
 
-2. [Automate Android apps on your Local PC](https://testsigma.com/tutorials/test-cases/ios-apps/build-tests-using-local-devices/)
+2. [Automate Android apps on your Local PC](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/)

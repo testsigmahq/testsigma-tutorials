@@ -48,7 +48,6 @@ You will need three things to get started:
 To enable developer options and get started in iOS, there are 3 additional steps you need to perform via the Apple Developer Portal.
 
 ---
-
 ## [A. Apple Developer Portal](#a-apple-developer-portal)
 
 1. **Create a Certificate Signing Request on Testsigma**
