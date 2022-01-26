@@ -44,6 +44,13 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               title
+              meta_desc
+              canonical
+              keywords
+              social_share_summary
+              social_share_desc
+              social_share_image
+              noindex
             }
           }
         }

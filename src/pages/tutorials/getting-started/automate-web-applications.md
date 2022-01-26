@@ -4,6 +4,14 @@ order: 1.1
 page_id: "Get Started with Automating Web Applications"
 search_keyword: "Get started, Automate Web Applications, Testsigma Tutorials"
 warning: false
+canonical: "page url"
+page_title: "Get Started with Automating Web Applications"
+meta_desc: ""
+social_share_summary: "Twitter summary message"
+social_share_desc: "Sharing page description"
+social_share_image: "Sharing page thumbnail image url"
+keywords: ""
+noindex: true
 contextual_links:
 - type: section
   name: "Contents"

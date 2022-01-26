@@ -37,6 +37,17 @@ export default ({ data, pageContext }) => {
 
     return (
         <Layout>
+            <SEO
+                title={post.frontmatter.page_title || post.frontmatter.title}
+                slug={post.fields.slug}
+                canonical={post.frontmatter.canonical}
+                meta_desc={post.frontmatter.meta_desc}
+                keywords={post.frontmatter.keywords}
+                social_share_summary={post.frontmatter.social_share_summary}
+                social_share_desc={post.frontmatter.social_share_desc}
+                social_share_image={post.frontmatter.social_share_image}
+                noindex={post.frontmatter.noindex || true}
+            />
             <header>
               <div className="flex items-stretch">
                 <nav className="lex max-w-sm w-1/4">
@@ -81,7 +92,6 @@ export default ({ data, pageContext }) => {
               </div>
             </header>
             <hr/>
-            <SEO title={post.frontmatter.title} slug={post.fields.slug} />
             {/*<SubNav></SubNav>*/}
             <div className="w-full">
                 <div className="flex items-stretch">
@@ -162,6 +172,14 @@ export const query = graphql`
       html
       frontmatter {
         title
+        page_title
+        meta_desc
+        canonical
+        keywords
+        social_share_summary
+        social_share_desc
+        social_share_image
+        noindex
         contextual_links {
           type
           name
