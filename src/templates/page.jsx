@@ -86,7 +86,7 @@ export default ({ data, pageContext }) => {
                       <SearchInputBox></SearchInputBox>
                   </div>
                     <div className="flex items-center justify-center w-1/5">
-                        <button className="border border-green-600 font-bold px-4 py-1.5 text-green-600 rounded">Get started for free</button>
+                        <a className="border border-green-600 font-bold px-4 py-1.5 text-green-600 rounded" href='https://testsigma.com/signup'>Get started for free</a>
                     </div>
                 </nav>
               </div>
