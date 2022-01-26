@@ -302,7 +302,7 @@ These reports can be viewed directly in the Testsigma application, or can be dow
 
 Reach out to us through in app chat for a walk through or if you have any questions!
 
-Join Testsigma’s Discord Server
+[Join Testsigma’s Discord Server](https://discord.com/invite/FXQSP7FXND)
 
 More tutorials here.
 

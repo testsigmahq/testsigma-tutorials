@@ -5,6 +5,7 @@ const frontmatter = require('@github-docs/frontmatter');
 const { v4: uuidv4 } = require('uuid');
 const { createFilePath } = require('gatsby-source-filesystem');
 const redirects = require('./src/redirects.json');
+const leftNavTitle = require('./src/left-nav-title.json');
 
 const ignorePaths = [];
 
@@ -131,7 +132,19 @@ exports.sourceNodes = async ({
 
         let current = output;
         split.forEach((part) => {
-            current[part] = current[part] || {};
+            if(current[part])
+                current[part] = current[part];
+            else {
+                current[part] = {};
+                if(leftNavTitle[part]) {
+                    Object.keys(leftNavTitle[part]).forEach(key => {
+                        if(val.indexOf(key) === 0) {
+                            //console.log(key);
+                            current[part] = {leftNavTitle: leftNavTitle[part][key]};
+                        }
+                    })
+                }
+            }
             current = current[part];
         });
         current.url = `/${split.join('/')}/`;

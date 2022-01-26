@@ -1,6 +1,6 @@
 ---
 title: "How to setup Agents to run tests in android local devices"
-order: 6.1
+order: 5.1
 page_id: "How to setup Agents to run tests in android local devices"
 search_keyword: "Agent, Agent Setup, Testsigma Tutorials"
 warning: false

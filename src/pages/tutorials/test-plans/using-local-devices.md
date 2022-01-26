@@ -1,6 +1,6 @@
 ---
 title: "How to Create a Test Plans to run on Local Devices"
-order: 5.1
+order: 4.1
 page_id: "How to Create a Test Plans to run on Local Devices"
 search_keyword: "Test Plans, Local devices, Testsigma Tutorials"
 warning: false

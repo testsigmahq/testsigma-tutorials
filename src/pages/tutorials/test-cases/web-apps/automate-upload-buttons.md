@@ -1,6 +1,6 @@
 ---
 title: "How to create Test Steps for uploading files"
-order: 2.6
+order: 2.12
 page_id: "How to create Test Steps for uploading files"
 search_keyword: "Web Application, Recorder, Testsigma Tutorials"
 warning: false
@@ -48,11 +48,11 @@ Now let us discuss how we can use these links in our Test Steps.
 
 5. Create a Test Case and navigate to the application with the help of URL.
 
-6. Use NLP:  **Upload file testdata using the element element**.
+6. Use NLP:  **Upload file test-data using the element element**.
 
 ![upload_test_step](https://docs.testsigma.com/images/tutorials/automate-file-upload-cases/upload_test_step.png)
 
-7. Replace testdata with the file path copied in step 4.
+7. Replace test-data with the file path copied in step 4.
 
 ![filepath_add](https://docs.testsigma.com/images/tutorials/automate-file-upload-cases/filepath_add.png)
 
