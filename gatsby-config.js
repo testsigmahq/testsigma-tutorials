@@ -100,6 +100,26 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-freshchat`,
+      options: {
+        token: "b905859c-c256-471f-ab0a-a4d0829d27ee", // process.env.FRESHCHAT_TOKEN,
+        host: "https://wchat.freshchat.com",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "UA-99606664-1", // Google Analytics
+          "AW-777462306", // Google Tag Manager
+        ],
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+        },
+      }
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [

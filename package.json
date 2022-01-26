@@ -43,7 +43,10 @@
     "react-onclickout": "^2.0.8",
     "sass": "^1.41.0",
     "tailwindcss": "^2.2.15",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "react-google-recaptcha": "^2.1.0",
+    "gatsby-plugin-google-gtag": "^4.4.0",
+    "gatsby-plugin-freshchat": "^1.0.0-rc1"
   },
   "devDependencies": {
     "gatsby-plugin-postcss": "^4.13.0"
