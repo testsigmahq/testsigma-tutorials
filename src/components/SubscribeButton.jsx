@@ -5,6 +5,10 @@ import axios from 'axios';
 class SubscribeButton extends Component {
     constructor(props) {
         super(props);
+        
+        this.state = {
+            subscribed: false,
+        };
         this._reCaptchaRef = React.createRef();
     }
 
@@ -14,56 +18,49 @@ class SubscribeButton extends Component {
         const CONTACT_LIST_API = 'https://staging.testsigma.com/api/website/contacts';
         const email =  document.getElementById('email').value;
         const emailError = document.getElementById('email_error');
-        const subscribeSuccess = document.getElementById('subscribe_success');
         let trimmedURL = window.location.href;
 
         if (trimmedURL.length > 250)
             trimmedURL = window.location.href.substr(0, 240)+"...";
 
         const regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-
-        this._reCaptchaRef.current.executeAsync().then(value => {
-
-            const formData = {
-                'CATEGORY': 'Product Updates',
-                'LSOURCE': 'Tutorials',
-                'UPDATES': '',
-                'URL': trimmedURL,
-                'add_tags_immediately': false,
-                'email': email,
-                'g-recaptcha-response': value,
-                'list_id' : 'bec00ef235',
-                'tags': ['Product Updates']
-            };
-
-            emailError.style.display = "none";
-            subscribeSuccess.style.display = "none";
-
-            if (!regex.test(email)) {
-                emailError.style.display = "block";
-                return false;
-            } else {
-                axios({
-                    method: 'POST',
-                    url: CONTACT_LIST_API,
-                    data: formData,
-                    headers: { "Content-Type": "application/json; charset=UTF-8" },
-                })
+        
+        emailError.style.display = "none";
+        if (!regex.test(email)) {
+            emailError.style.display = "block";
+            return false;
+        } else {
+            this._reCaptchaRef.current.executeAsync().then(value => {
+                if (value) {
+                    const formData = {
+                        'CATEGORY': 'Product Updates',
+                        'LSOURCE': 'Tutorials',
+                        'UPDATES': '',
+                        'URL': trimmedURL,
+                        'add_tags_immediately': false,
+                        'email': email,
+                        'g-recaptcha-response': value,
+                        'list_id' : 'bec00ef235',
+                        'tags': ['Product Updates']
+                    };
+        
+                    axios({
+                        method: 'POST',
+                        url: CONTACT_LIST_API,
+                        data: formData,
+                        headers: { "Content-Type": "application/json; charset=UTF-8" },
+                    })
                     .then(function (response) {
                         // handle success
-                        document.getElementById('email').value = "";
-                        subscribeSuccess.style.display = "block";
-                        setTimeout(() => {
-                            subscribeSuccess.style.display = "none";
-                        }, 3000);
-                        // console.log("Success: ", response);
-                    })
+                        this.setState({ subscribed: true });
+                    }.bind(this))
                     .catch(function (response) {
                         // handle error
                         console.error("Failed: ", response);
                     });
-            }
-        });
+                }
+            });
+        }
     }
 
     render() {
@@ -75,7 +72,7 @@ class SubscribeButton extends Component {
                             Stay up to date with product updates & news
                         </h4>
                     </div>
-                    <div className="flex_item">
+                    <div className={this.state.subscribed ? "hide" : "flex_item"}>
                         <form>
                             <svg width="20" height="15" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -85,15 +82,19 @@ class SubscribeButton extends Component {
                             <input type="text" id="email" name="email" placeholder="Your Email Id"/>
                         </form>
                         <p id="email_error" className="email-error">Please fill out this field.</p>
-                        <p id="subscribe_success" className="subscribe-success">You're now subscribed to our monthly product updates.</p>
                     </div>
-                    <div className="flex_item btn_width">
+                    <div className={this.state.subscribed ? "hide" : "flex_item btn_width"}>
                         <ReCAPTCHA
                             size="invisible"
                             ref={this._reCaptchaRef}
                             sitekey='6LcL08cZAAAAAAn21PBn75R1qLquLlbx1ZB0ZIFd'
                         />
                         <button className="btn" onClick={this.subscribeNewsletters}>Subscribe</button>
+                    </div>
+                    <div className={this.state.subscribed ? "flex_item subscribe-success" : "hide"}>
+                        <h4 className="green_text">
+                            You're now subscribed to our monthly product updates.
+                        </h4>
                     </div>
                 </div>
             </>
