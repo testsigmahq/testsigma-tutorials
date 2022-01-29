@@ -43,6 +43,7 @@
   }
 
   .root > .parent{
+    a,
     button {
       font-weight: 600;
       &:hover{
@@ -79,7 +80,7 @@
         transform: rotate(0deg);
       }
     }
-
+    & a,
     & button {
       background: none;
       color: inherit;
@@ -87,6 +88,7 @@
       border: none;
       padding: 0;
       text-align: inherit;
+      font-weight: 400;
       font-size: 14px;
       outline: inherit;
       text-transform: capitalize;
@@ -94,7 +96,7 @@
         color: #1AA874;
       }
       @media (max-width: 576px) {
-        font-size: 13px;
+       font-size: 13px;
       }
     }
 
@@ -212,10 +214,56 @@
 .hamburger{
   display: none;
   @media (max-width: 576px) {
-    display: block;
     position: absolute;
+    z-index: 9;
     top: 0;
-    left: 30px;
+    left: 0;
+    display: block;
+    padding: 0;
+    // background-color: #f9fafb;
+  }
+  > button {
+    @media (max-width: 576px) {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      z-index: 9;
+    }
+  }
+  > svg {
+    @media (max-width: 576px) {
+      position: relative;
+      top: 15px;
+      left: 15px;
+    }
+  }
+}
+.hamburger .leftNav {
+  @media (max-width: 576px) {
+    padding-bottom: 1.2rem;
+  }
+}
+.hamburger + nav,
+.hamburger + nav + div .w-full aside {
+  @media (max-width: 576px) {
+    display: none;
+  }
+}
+.hamburger + nav + div,
+.hamburger + nav + div .w-full,
+.hamburger + nav + div .w-full main {
+  @media (max-width: 576px) {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}
+.hamburger + nav + div .pagination_buttons {
+  @media (max-width: 576px) {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
   }
 }
 
