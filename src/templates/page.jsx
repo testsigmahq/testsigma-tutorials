@@ -68,7 +68,7 @@ export default ({ data, pageContext }) => {
                                 <a className="btn btn-ghost btn-sm border-b-2 border-green-500 rounded-btn ml-10 text-green-600" >
                                     Tutorials
                                 </a>
-                                <a className="btn btn-ghost btn-sm rounded-btn ml-10" target={'_blank'} href={'https://github.com/Testsigma/testsigma/'}>
+                                <a className="btn btn-ghost btn-sm rounded-btn ml-10" target={'_blank'} href={'https://github.com/Testsigmahq/testsigma/'}>
                                     Github
                                 </a>
                                 <a className="btn btn-ghost btn-sm rounded-btn ml-10" href={'https://discord.com/invite/5caWS7R6QX'}>
