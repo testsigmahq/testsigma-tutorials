@@ -279,8 +279,4 @@ Reach out to us through in app chat for a walkthrough or if you have any questio
 **JoinTestsigma’s [Discord Server](https://discord.com/invite/5caWS7R6QX)**
 **More tutorials [here](https://testsigma.com/tutorials).**
 
-Happy Testing folks!
-
-Team Testsigma
-
 

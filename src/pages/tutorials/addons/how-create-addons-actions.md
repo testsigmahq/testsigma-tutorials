@@ -31,8 +31,6 @@ contextual_links:
 ---
 ---
 
-## [Creating an add-on for an automation action](#creating-an-add-on-for-an-automation-action)
-
 Extending test automation for complex scenarios is a simple task in Testsigma with the use of add-ons. In this tutorial, we’ll be showing you how to create and use an add-on for a simple PDF action.
 
 ---

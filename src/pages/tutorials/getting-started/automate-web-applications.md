@@ -123,52 +123,15 @@ There are two ways you can add Test Steps to your Test Case:
 2. Write your test step by step in simple English language
                    
 [[info | INFO:]]
-| _Before you start make sure you’ve referred to the **‘Setting the stage to write your first test’ ‘section in this tutorial and your are currently in the **‘Test Case Details’** Page_ 
+| _Before you start make sure you’ve referred to the **‘Setting the stage to write your first test’** section in this tutorial and your are currently in the ‘Test Case Details’ Page_ 
                                                                      
----
-## [Setting the stage to write your first test](#setting-the-stage-to-write-your-first-test)
-
-**Create a Project > Add a Test Case > Add Test Steps**
-
-Let’s understand these in detail.
-
-Project - Can be your web application for instance
-
-Test Case - specific idea that has to be tested, say, login functionality
-
-Test Steps - the actual set of instructions/steps required to test the functionality
-
-[[info | NOTE:]]
-| _: By default, 4 Projects will be readily available on your account._
-|_These projects (here, Web application) will also have a few sample Test Cases and Test Steps ready for your reference._
-
-1. Start by creating a Project first.
-For a detailed overview, check [here](https://testsigma.com/docs/projects/overview/)
-
-
-2. Create a Test Case
-For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
-
-
-3. Add Test Steps
-Once you create a Test Case, you will be redirected to the page where you can add all your Test Steps.
-
-The next section explains how you can add steps to test a sample testing scenario.
-
-There are two ways you can add Test Steps to your Test Case.
-One, using the Testsigma Chrome extension. Two, by writing your tests in simple English language.
-        
-                                                                                                                               
-[[info | NOTE:]]                                                                                                               
-| _Before you start make sure you’ve referred to the **‘Setting the stage to write your first test’** ‘section in this tutorial and your are currently in the **‘Test Case Details’** Page_                                                        
-
 ---
 ## [Method 1 : Add/Record Test Steps using the Test Recorder](#method-1--addrecord-test-steps-using-the-test-recorder)
 
 The Testsigma recorder sits directly on your app (web and mobile), acting as both recorder and object spy letting you create the most stable tests in a matter of time.
 
-[[info | NOTE:]]                                                                                                               
-| _If you have not installed the Chrome extension from the webstore, you will be prompted to install the extension when you try recording your steps in this stage._                                                        
+[[info | NOTE:]]
+|_If you have not installed the Chrome extension from the webstore, you will be prompted to install the extension when you try recording your steps in this stage._                                                        
 
 **Step 1.** The first step is to navigate to the application you are testing
 
@@ -209,7 +172,7 @@ Here’s a video that summarizes the steps we have discussed.
 
 Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/overview/).
 
-[[info | NOTE:]]                                                                                                              
+[[info | NOTE:]]
 | _This is a basic test that can be recorded by interacting with your app. We will dive into more advanced capabilities in other tutorials or [ping us](https://discord.com/invite/5caWS7R6QX) for awesome support!_                                                        
 
 ---
@@ -312,9 +275,4 @@ Reach out to us through in app chat for a walk through or if you have any questi
 
 [Join Testsigma’s Discord Server](https://discord.com/invite/FXQSP7FXND)
 
-More tutorials here.
-
-
-Happy Testing folks!
-
-Team Testsigma
+More tutorials here https://testsigma.com/tutorials/
