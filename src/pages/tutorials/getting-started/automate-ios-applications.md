@@ -292,7 +292,7 @@ Type **“Wait for test data seconds"**. Replace the test data part with, say, 1
 
 Let’s try re-running this test case now.
 
-<iframe src="docs.testsigma.com/videos/tutorials/getting-started-ios/ad-hok-run.mp4" width="600" height="400"></iframe>
+<iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-ios/ad-hok-run.mp4" width="600" height="400"></iframe>
 
 The test has now passed.
 
