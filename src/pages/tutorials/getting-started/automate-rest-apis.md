@@ -120,7 +120,7 @@ This test checks for the Expected Header of the Response for a simple GET reques
 
 **Expected Header Content:** {"content-type":"application/json; charset=utf-8"}
 
-Please check this article for more details on comparison Types - [Comparison Modes in Web Services Testing](https://docs.google.com/document/d/1T4NvpIgj2DoKuAcrJNqimIiBc-v-Q0dKO0hClPQtv9o/edit#)
+Please check this article for more details on comparison Types - [Comparison Modes in Web Services Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/comparison-types/)
 
 ![Verify Response Header for a GET Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/verify-response-expected-response-header.png)
 

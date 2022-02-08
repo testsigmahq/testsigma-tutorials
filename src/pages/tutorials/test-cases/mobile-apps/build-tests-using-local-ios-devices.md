@@ -163,7 +163,7 @@ There is absolutely no maintenance overhead as the Agent is up to date with all 
 
 Also, you may set your Agent to private mode according to your preference in case you do not wish it to be seen among the list of active Agents on the team’s Testsigma account.
 
-[Why do you need to install the Agent?](https://docs.google.com/document/d/1n3g-BEiixO_Ae4OEz6tVb92ul3jBFLCc3QrckcXOYyI/edit)
+[Why do you need to install the Agent?](https://testsigma.com/docs/agent/overview/)
 
 ![install-testsigma-agent](https://docs.testsigma.com/images/tutorials/automate-ios-apps-using-local-devices/install-testsigma-agent.png)
 
@@ -171,7 +171,7 @@ Also, you may set your Agent to private mode according to your preference in cas
 
 Once you have created an account with Testsigma, you just need to follow a few simple steps to get set and go!
 
-Follow [this guide](https://docs.google.com/document/d/1VSTyALKXpfeRXi1cbLfXgtFoAxnfUEkmj5oHSDIr6aE/edit) to know how you can install and set up the Testsigma Agent on your machine.
+Follow [this guide](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/) to know how you can install and set up the Testsigma Agent on your machine.
 
 Once the connection between the Testsigma server and the Agent is established, and registered, navigate to the Agents tab on the left navigation pane. The Agent that you registered will be displayed with all the available browsers in that Agent machine.
 
@@ -223,12 +223,12 @@ If you haven’t installed the Agent, you can click on the link to download from
 
 ![launch-test-recorder-testsigma](https://docs.testsigma.com/images/tutorials/automate-ios-apps-using-local-devices/launch-test-recorder-testsigma.png)
 
-Refer to this detailed [guide](https://docs.google.com/document/d/1lZW_d-aKROZ23warENQNAoF3ZlUg4h8QNF4avh8ZIos/edit) to understand how you can use the Recorder to automate your app.
+Refer to this detailed [guide](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/) to understand how you can use the Recorder to automate your app.
 
 ---
 ## [Creating Test Steps](#creating-test-steps)
 
-Refer to this detailed [tutorial](https://docs.google.com/document/d/1lZW_d-aKROZ23warENQNAoF3ZlUg4h8QNF4avh8ZIos/edit) to understand how you can use the Recorder to automate your app.
+Refer to this detailed [tutorial](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-recorder/) to understand how you can use the Recorder to automate your app.
 
 In order to create test steps all you need to do is interact with the application in the recorder that launches and each action that you perform will be recorded as a step in the test case.
 

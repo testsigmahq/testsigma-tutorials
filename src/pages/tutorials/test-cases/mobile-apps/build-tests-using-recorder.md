@@ -213,13 +213,13 @@ Here’s how you can do it:
 
 **Resources you may check out:**
 
-[Quick Guide iOS automation (Sample app)](https://docs.google.com/document/d/1t-LMr4oulya40uGQOUH26aVz3QYUiV45bcrYoH8ajp0/edit)
+[Quick Guide iOS automation (Sample app)](https://testsigma.com/tutorials/getting-started/automate-ios-applications/)
 
-[Quick Guide Android automation (Sample app)](https://docs.google.com/document/d/17dvlNuSVVCr11cMnCP7AhnpLrVt_Hzbb0L7EChPhCEA/edit#heading=h.xlczyd758ywn)
+[Quick Guide Android automation (Sample app)](https://testsigma.com/tutorials/getting-started/automate-android-applications/)
 
-[Guide to Step Groups](https://docs.google.com/document/d/1J0cpIXI8qSaCEki0YiRAJwU2q1VKgXJ4snwcba09N94/edit)
+[Guide to Step Groups](https://testsigma.com/docs/test-cases/step-types/step-group/)
 
-[Conditional IF - a guide](https://docs.google.com/document/d/1xVpntUgCyi5byxkWdcPfugja6We1zC9m8BQW4rucx7o/edit#heading=h.pn8a2truxqkt)
+[Conditional IF - a guide](https://testsigma.com/docs/test-cases/step-types/if-condition/)
 
 _This is a basic walk-through. For queries, reach us via the in-app chat or ping us at support@testsigma.com for awesome support!_
 
