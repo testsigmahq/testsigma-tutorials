@@ -78,10 +78,10 @@ Let’s understand these in detail.
 * **Test Steps** - the actual set of instructions/steps required to test the functionality
 
    + Start by creating a Project first.
-     For a detailed overview, check [here](https://testsigma.com/docs/projects/overview).
+     For a detailed overview, check [here](https://testsigma.com/docs/projects/overview/).
 
    + Create a Test Case
-     For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete).
+     For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
    + Add Test Steps
      Once you create a Test Case, you will be redirected to the page where you can add all your Test Steps.
@@ -151,7 +151,7 @@ To add more steps additionally to the already recorded tests (like we discussed 
 
 **Step 4:** Once you’re done recording, click on **‘Finish’** and you’ll be navigated back to the test case details screen where you’ll see all your test steps.
 
-Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/overview/).
+Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
 
 _This is a basic test that can be recorded by interacting with your app. We will dive into more advanced capabilities in other tutorials or you can also [ping us](https://discord.com/invite/5caWS7R6QX) for awesome support!_
 
@@ -268,9 +268,9 @@ To view detailed results of all your test cases you can navigate to: Test develo
 
 * Practice in your account. If you don't have an account [Try out!](https://testsigma.com/signup).
 
-* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/overview/)
+* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
-* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/plans/schedule-plans/)
+* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
 * Try out more advanced capabilities. Check out our detailed [documentation.](https://testsigma.com/docs/)
 

@@ -186,7 +186,7 @@ Let’s try out a few advanced steps.
 
 Step groups combine reusable test step(s) in one so they can be used across the test case. You only need to specify it in your test steps as needed.
 
-New to Step Groups? Head over to [this tutorial](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/add-step-group-type-step).
+New to Step Groups? Head over to [this tutorial](https://testsigma.com/docs/test-cases/step-types/step-group/).
 
 If you are using a step group that is already available, you may simply choose the test step type as Step Groups and choose the name of the step group you wish to add.
 

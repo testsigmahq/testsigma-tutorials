@@ -90,7 +90,7 @@ Let’s understand these in detail.
 | _These projects (here, Web application) will also have a few sample Test Cases and Test Steps ready for your reference._
                      
 1. Start by creating a Project first.
-   For a detailed overview, check [here](https://testsigma.com/docs/projects/overview).
+   For a detailed overview, check [here](https://testsigma.com/docs/projects/overview/).
 
 2. Create a Test Case
    For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
@@ -161,7 +161,7 @@ After performing these basic actions we need to verify that they were successful
 
 So first click on the empty test step below the most recently created one in the recorder. From the drop down list select **‘Verify that the current page displays test data’**
 
-To add more steps additionally to the already recorded tests (like we discussed in Method 1) manually. Refer to [this](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/add-steps-manually/) guide.
+To add more steps additionally to the already recorded tests (like we discussed in Method 1) manually. Refer to [this](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/add-steps-manually/) guide.
 
 **Step 4:** When you are done, click **Finish**.
 
@@ -170,7 +170,7 @@ You will now be taken to the Test Cases Details page where you will see all the 
 Here’s a video that summarizes the steps we have discussed.
 <iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-web/video1.mp4" width="600" height="400"></iframe>
 
-Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/overview/).
+Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
 
 [[info | NOTE:]]
 | _This is a basic test that can be recorded by interacting with your app. We will dive into more advanced capabilities in other tutorials or [ping us](https://discord.com/invite/5caWS7R6QX) for awesome support!_                                                        
@@ -212,7 +212,7 @@ This will help us locate where this Full Name (John Doe) field resides on the we
 
 [[info | INFO:]]
 | _In Testsigma, **Elements** represent the unique address/locators of the actual elements (such as a button, a text field, a link etc) on your web page. These (can be xpath, id, link text etc.) help us locate where they reside and interact with them to perform actions on them._
-| _Refer to [this](https://testsigma.com/docs/elements/web-applications/record-multiple-elements/) guide to learn more about Elements._
+| _Refer to [this](https://testsigma.com/docs/elements/web-apps/record-multiple-elements/) guide to learn more about Elements._
 
 Simply click on the element part. You will get a list of elements that are already captured. Select from the list if it already exists.
 
@@ -265,9 +265,9 @@ These reports can be viewed directly in the Testsigma application, or can be dow
 
 * Practice in your account. If you don't have an account [Try out!](https://testsigma.com/signup).
 
-* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/overview/)
+* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
-* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/plans/schedule-plans/)
+* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
 * Try out more advanced capabilities. Check out our detailed [documentation.](https://testsigma.com/docs/)
 

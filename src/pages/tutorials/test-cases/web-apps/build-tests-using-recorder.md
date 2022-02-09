@@ -80,11 +80,11 @@ Let’s understand these in detail.
 | _By default, 4 Projects will be readily available on your account. These projects (here, Web application) will also have a few sample Test Cases and Test Steps ready for your reference._
 
 1. Start by creating a Project first.
-   For a detailed overview, check [here](https://testsigma.com/docs/projects/overview).
+   For a detailed overview, check [here](https://testsigma.com/docs/projects/overview/).
 
 
 2. Create a Test Case
-   For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete).
+   For a detailed overview, check [here](https://testsigma.com/docs/test-cases/manage/add-edit-delete/).
 
 
 3. Record Test Steps
@@ -216,9 +216,9 @@ To view detailed results of all your test cases you can navigate to: Test develo
 
 * Practice in your account. If you don't have an account [Try out!](https://testsigma.com/signup).
 
-* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-applications/overview/)
+* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
 
-* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/plans/schedule-plans/)
+* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
 * Try out more advanced capabilities. Check out our detailed [documentation](https://testsigma.com/docs/).
 

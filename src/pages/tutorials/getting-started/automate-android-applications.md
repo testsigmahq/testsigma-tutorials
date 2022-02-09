@@ -84,10 +84,10 @@ Let’s understand these in detail.
 These projects (here, Android application) will also have a few sample Test Cases and Test Steps ready for your reference._
 
 1. Start by creating a Project first.
-   For a detailed overview, check [here](https://testsigma.com/docs/projects/overview)
+   For a detailed overview, check [here](https://testsigma.com/docs/projects/overview/)
 
 2. Create a Test Case
-   For a detailed overview, check [here](https://testsigma.com/docs/test-cases/overview)
+   For a detailed overview, check [here](https://testsigma.com/docs/test-cases/overview/)
 
 3. Add Test Steps
    Once you create a Test Case, you will be redirected to the page where you can add all your Test Steps.
@@ -289,7 +289,7 @@ If you need any help with errors you can reach out to [support@testsigma.com](ma
 
 * Automate Android Apps using your local devices. [Learn more!](https://testsigma.com//tutorials/test-cases/android-apps/build-tests-using-local-devices/)
 
-* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/plans/schedule-plans/)
+* Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
 * Try out more advanced capabilities. Check out our detailed [documentation.](https://testsigma.com/docs/)
 
