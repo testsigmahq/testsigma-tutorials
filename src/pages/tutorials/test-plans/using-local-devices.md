@@ -135,7 +135,7 @@ In the walkthrough, we executed a single test case on a local mobile device, but
 [[info | NOTE:]]
 |  Sometimes there can be an error at the server side during the execution, so you can click on the Re-Run button shown at the corner to retry the test execution.
 
-If the executions are not running as expected in local devices refer to [this troubleshooting documentation](https://testsigma.com/docs/troubleshooting/agent/test-runs-on-local-devices/) for more details
+If the executions are not running as expected in local devices refer to [this troubleshooting documentation](https://testsigma.com/docs/agent/troubleshooting/setup-issues/) for more details
 
 
 **If the issue persists, [connect with Testsigma Support on Discord](https://discord.com/invite/5caWS7R6QX)** or reach out to support@testsigma.com. 

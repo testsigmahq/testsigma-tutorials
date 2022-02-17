@@ -24,7 +24,7 @@ To automate the file upload action in Testsigma you need to upload the file(that
 > ## [Prerequisites](#prerequisites)
 > You should already know how to:
 > 1. [Create a test case](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
-> 2. [Create test steps](https://testsigma.com/docs/test-cases/create-steps-nl/)
+> 2. [Create test steps](https://testsigma.com/docs/test-cases/create-steps-nl/overview/)
 
 ---
 

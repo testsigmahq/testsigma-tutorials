@@ -240,7 +240,7 @@ To learn all other options available in the test recorder [click here](https://t
 In this section you will learn:
 
 1. How to add steps and create a new element on the go
-   Learn more about how to add steps manually from the test case details page [here](https://testsigma.com/docs/test-cases/create-steps-nl/ios-apps/add-steps-manually/).
+   Learn more about how to add steps manually from the test case details page [here](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/add-steps-manually/).
 
 ![Add more steps manually at any time](https://docs.testsigma.com/images/tutorials/getting-started-ios/add-nlp-test-steps-manually.gif)
 
