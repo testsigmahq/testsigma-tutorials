@@ -324,5 +324,5 @@ _This is a basic test that can be recorded by interacting with your app. also [p
 
 Reach out to us through in app chat for a walkthrough or if you have any questions!
 
-**Join [Discord Server](https://discord.com/invite/5caWS7R6QX) to learn more about Testsigma. More tutorials [here](https://testsigma.com/tutorials).**
+**Join [Discord Server](https://discord.com/invite/5caWS7R6QX) to learn more about Testsigma.**
 

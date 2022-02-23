@@ -277,6 +277,6 @@ To view detailed results of all your test cases you can navigate to: Test develo
 Reach out to us through in app chat for a walkthrough or if you have any questions!
 
 **JoinTestsigma’s [Discord Server](https://discord.com/invite/5caWS7R6QX)**
-**More tutorials [here](https://testsigma.com/tutorials).**
+
 
 

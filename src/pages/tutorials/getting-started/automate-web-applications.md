@@ -275,4 +275,3 @@ Reach out to us through in app chat for a walk through or if you have any questi
 
 [Join Testsigma’s Discord Server](https://discord.com/invite/FXQSP7FXND)
 
-More tutorials here https://testsigma.com/tutorials/
