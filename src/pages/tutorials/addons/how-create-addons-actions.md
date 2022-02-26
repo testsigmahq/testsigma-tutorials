@@ -1,5 +1,7 @@
 ---
 title: "How to create addon for actions"
+metadesc: "End to end tutorial on how to create an add-on for automation action"
+noindex: false
 order: 6.1
 page_id: "How to create addon for actions"
 search_keyword: "Addons, Testsigma Tutorials"

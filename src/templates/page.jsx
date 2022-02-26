@@ -41,12 +41,12 @@ export default ({ data, pageContext }) => {
                 title={post.frontmatter.page_title || post.frontmatter.title}
                 slug={post.fields.slug}
                 canonical={post.frontmatter.canonical}
-                meta_desc={post.frontmatter.meta_desc}
+                metadesc={post.frontmatter.metadesc}
                 keywords={post.frontmatter.keywords}
                 social_share_summary={post.frontmatter.social_share_summary}
                 social_share_desc={post.frontmatter.social_share_desc}
                 social_share_image={post.frontmatter.social_share_image}
-                noindex={post.frontmatter.noindex || true}
+                noindex={post.frontmatter.noindex}
             />
             <header id="root_header">
                 <div className="flex items-stretch">
@@ -123,7 +123,7 @@ export default ({ data, pageContext }) => {
                                     <div className="footer_prev">
                                     <Link to={prev.url}>
                                         <span>Previous</span>
-                                        <svg stroke="" fill="#78757a" stroke-width="0"
+                                        <svg stroke="" fill="#78757a" strokeWidth="0"
                                              viewBox="0 0 24 24" className="css-1hyj6ne" height="1.6em" width="1.6em"
                                              xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -139,7 +139,7 @@ export default ({ data, pageContext }) => {
                                     <div className="next_button">
                                     <Link to={next.url}>
                                         <span>Next</span>
-                                        <svg stroke="" fill="#78757a" stroke-width="0" viewBox="0 0 24 24"
+                                        <svg stroke="" fill="#78757a" strokeWidth="0" viewBox="0 0 24 24"
                                              className="css-jmo9lw" height="1.6em" width="1.6em"
                                              xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
@@ -171,7 +171,7 @@ export const query = graphql`
       frontmatter {
         title
         page_title
-        meta_desc
+        metadesc
         canonical
         keywords
         social_share_summary

@@ -1,5 +1,7 @@
 ---
 title: "How to do Data Driven Testing "
+metadesc: "Learn how to perform data driven or parameterized testing in Testsigma"
+noindex: false
 order: 2.5
 page_id: "How to do Data Driven Testing "
 search_keyword: "Data Driven Testing, Testsigma Tutorials"

@@ -1,5 +1,7 @@
 ---
 title: "Get Started with Automating Android Apps"
+metadesc: "A quick Tutorial to help you with your first steps to testing an android app using Testsigma"
+noindex: false
 order: 1.3
 page_id: "Get Started with Automating Android Apps"
 warning: false

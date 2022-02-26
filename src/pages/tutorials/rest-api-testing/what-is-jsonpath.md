@@ -1,5 +1,7 @@
 ---
 title: "What is JSONPath"
+metadesc: "Learn how to use JSON path to validate REST API Response in Testsigma"
+noindex: false
 order: 3.1
 page_id: "What is JSONPath"
 search_keyword: "JSONPath, Testsigma Tutorials"

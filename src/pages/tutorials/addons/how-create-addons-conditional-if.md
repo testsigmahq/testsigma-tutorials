@@ -1,5 +1,7 @@
 ---
 title: "How to add condition if actions"
+metadesc: "End to end tutorial on how to create an add-on for Conditional If action"
+noindex: false
 order: 6.3
 page_id: "How to add condition if actions"
 search_keyword: "Addons, Conditional if, Testsigma Tutorials"

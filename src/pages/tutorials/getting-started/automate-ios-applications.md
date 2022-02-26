@@ -1,5 +1,7 @@
 ---
 title: "Get Started with Automating iOS Apps"
+metadesc: ""
+noindex: false
 order: 1.4
 page_id: "Get Started with Automating iOS Apps"
 warning: false

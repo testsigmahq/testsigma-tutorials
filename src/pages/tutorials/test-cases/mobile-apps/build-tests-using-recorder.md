@@ -1,5 +1,7 @@
 ---
 title: "Android & iOS: How to build Test Cases using Mobile Recorder"
+metadesc: "Here’s a quick guide that walks you through Testsigma mobile recorder and a few test steps types to familiarize yourself"
+noindex: false
 order: 2.21
 page_id: "Android & iOS: How to build Test Cases using Mobile Recorder"
 search_keyword: "Mobile Web Application, Recorder, Testsigma Tutorials"

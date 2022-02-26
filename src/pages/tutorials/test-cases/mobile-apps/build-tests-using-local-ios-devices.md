@@ -1,5 +1,7 @@
 ---
 title: "How to automate tests for iOS Apps using local devices"
+metadesc: ""
+noindex: false
 order: 2.41
 page_id: "How to automate tests for iOS Apps using local devices"
 warning: false

@@ -1,5 +1,7 @@
 ---
 title: "How to create Test Steps for uploading files"
+metadesc: ""
+noindex: false
 order: 2.12
 page_id: "How to create Test Steps for uploading files"
 search_keyword: "Web Application, Recorder, Testsigma Tutorials"
