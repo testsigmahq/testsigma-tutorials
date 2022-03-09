@@ -61,7 +61,7 @@ export default ({ data, pageContext }) => {
                     </nav>
                     <nav className="flex-auto flex  items-center">
                         <nav className="flex w-4/5">
-                            <div className="flex items-stretch font-bold ml-20">
+                            <div className="flex items-stretch font-semibold ml-20">
                                 <a className="btn btn-ghost btn-sm pr-2 rounded-btn" href={'/docs/'}>
                                     Docs
                                 </a>
@@ -120,7 +120,7 @@ export default ({ data, pageContext }) => {
                         <div className="pagination_buttons">
                             <div className={prev ? 'flex justify-between' : 'overflow-hidden'}>
                                 {prev && (
-                                    <div className="footer_prev">
+                                    <div className="prev_button">
                                     <Link to={prev.url}>
                                         <span>Previous</span>
                                         <svg stroke="" fill="#78757a" strokeWidth="0"

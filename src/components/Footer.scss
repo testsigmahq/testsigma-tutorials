@@ -24,6 +24,7 @@
   .helpfull{
     display: flex;
     justify-content: center;
+    padding-bottom: 2.5rem;
     @media (max-width: 576px) {
       display: block;
       justify-content: inherit;
