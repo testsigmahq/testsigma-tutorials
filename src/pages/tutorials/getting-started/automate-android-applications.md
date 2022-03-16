@@ -160,7 +160,7 @@ New to Testsigma Mobile Recorder? [Here](https://testsigma.com/tutorials/test-ca
 
 By default, the recorder will be in inspection mode (highlighted in yellow when you hover over any element).
 
-![inspector_mode](https://docs.testsigma.com/images/tutorials/getting-started-android/inspector_mode.gif)
+![inspector_mode](https://docs.testsigma.com/images/tutorials/getting-started-android/inspector_mode_new.gif)
 
 Let’s try interacting with the Wordpress app we just uploaded.
 
@@ -181,13 +181,13 @@ You’ll notice 3 options appear on top in the same pane:
 So in this case click on tap and the recorder will perform a tap action in the app. Simultaneously this will generate an NLP statement in your test steps on the left hand side. 
 
 
-![tap_action](https://docs.testsigma.com/images/tutorials/getting-started-android/tap_action.gif)
+![tap_action](https://docs.testsigma.com/images/tutorials/getting-started-android/tap_action_new.gif)
 
 **Test step 2:** Enter data into a field
 
 After the tap action you will be navigated into the next screen in the app where you have to enter the email ID in the field provided.
 
-![enter_data](https://docs.testsigma.com/images/tutorials/getting-started-android/enter_data.gif)
+![enter_data](https://docs.testsigma.com/images/tutorials/getting-started-android/enter_data_new.gif)
 
 To do this in inspector mode, first click on the email field. Then from the actions choose the enter data option. A box will pop up where you’ll be able to enter the email you want to.
 
@@ -195,7 +195,7 @@ Like the previous step the same actions will be recorded as an NLP step.
 
 If you want to **clear** the value entered, clicking on the clear option after selecting that element in inspector mode will do that for you. And once again since we’re recording the test it will be converted into a test step in NLP.
 
-![clear_action](https://docs.testsigma.com/images/tutorials/getting-started-android/clear_action.gif)
+![clear_action](https://docs.testsigma.com/images/tutorials/getting-started-android/clear_action_new.gif)
 
 **Test step 3** Click on next
 
@@ -211,7 +211,7 @@ After performing these basic actions we need to verify that they were successful
 
 So first click on the empty test step below the most recently created one in the recorder. From the drop down list select **‘Verify that the current page displays OPEN MAIL’**
 
-![verify_step_android](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_step_android.gif)
+![verify_step_android](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_step_android_new.gif)
 
 Here’s a summary of the steps we discussed so far.
 
@@ -238,7 +238,7 @@ In this section you will learn:
 3. How to add a simple verification steps
    Use the Verify action as used in Test Step 5 in the previous section.
    
-    ![verify_edit_in_test](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_edit_in_test.gif)
+    ![verify_edit_in_test](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_edit_in_test_new.gif)
 
 4. How to create multiple elements at once,
    Read [this](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/) to learn more.
