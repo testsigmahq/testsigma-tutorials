@@ -21,10 +21,13 @@
     "dotenv": "^10.0.0",
     "gatsby": "^3.13.0",
     "gatsby-plugin-algolia": "^0.22.2",
+    "gatsby-plugin-freshchat": "^1.0.0-rc1",
+    "gatsby-plugin-google-analytics": "^4.14.0",
+    "gatsby-plugin-google-gtag": "^4.4.0",
     "gatsby-plugin-image": "^1.13.0",
+    "gatsby-plugin-s3": "^0.3.8",
     "gatsby-plugin-sass": "^4.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
-    "gatsby-plugin-s3": "^0.3.8",
     "gatsby-remark-autolink-headers": "^2.1.11",
     "gatsby-remark-check-links": "^2.1.0",
     "gatsby-remark-custom-blocks": "^3.14.0",
@@ -38,15 +41,13 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-google-recaptcha": "^2.1.0",
     "react-helmet": "^6.1.0",
     "react-instantsearch-dom": "^6.12.1",
     "react-onclickout": "^2.0.8",
     "sass": "^1.41.0",
     "tailwindcss": "^2.2.15",
-    "uuid": "^8.3.2",
-    "react-google-recaptcha": "^2.1.0",
-    "gatsby-plugin-google-gtag": "^4.4.0",
-    "gatsby-plugin-freshchat": "^1.0.0-rc1"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "gatsby-plugin-postcss": "^4.13.0"
