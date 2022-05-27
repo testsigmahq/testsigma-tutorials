@@ -167,7 +167,7 @@ That’s it!
 
 * Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/)
 
-* Create Test Plans and Schedules using local devices. Head over to [this link!](https://testsigma.com/docs/test-management/plans/overview/)
+* Create Test Plans and Schedules using local devices. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/overview/)
 
 * Try out more advanced capabilities. Check out our detailed [documentation](https://testsigma.com/docs/).
 
