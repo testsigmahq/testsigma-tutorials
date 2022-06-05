@@ -41,7 +41,7 @@ The Test Steps iterates itself and subsequent rows of data are fed to the Test S
 
 ---
 
-## [Step 1: Associate Data Profile with you Test Case](#step-1-associate-data-profile-with-you-test-case)
+## [Step 1: Associate Data Profile with your Test Case](#step-1-associate-data-profile-with-you-test-case)
 
 1. In Create/Update Test Case form and click on Show Additional Options.
 
