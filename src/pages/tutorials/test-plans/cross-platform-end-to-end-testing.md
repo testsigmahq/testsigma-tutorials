@@ -19,90 +19,125 @@ contextual_links:
 
 ---
 
-There will be scenarios when you would want to execute certain test cases on one platform and once those test cases are executed, certain other dependent test cases on a different platform.
+End-to-end testing involves the testing of an application from start to end.  The objective of this testing is to simulate a real user scenario and validate the system under test and its components for integration and data integrity.
 
-For example, for a flight booking application, you might book the flight on the desktop web and then could want to modify the bookings on your android application, and then you might want to cancel the bookings on your iPad application.
+With cross-platform end-to-end testing, the application is tested from start to end on multiple platforms–mobile and web.  
 
-The flow would look something like the below:
+Let us take an example of a flight booking application.  
+You might want to book a ticket through the desktop application and modify the booking details on an Android mobile application. Meanwhile, choose to cancel the booking on your iPad.
 
-* Book the flight on the desktop web
+This will include the following steps:
 
-* Modify the booking done in step 1 on the android application
+* Book the flight on the desktop web.
+* Modify the booking done in *step 1* on the Android application.
+* Cancel the booking done in *step 1* and modified in *step 2*, on the iPad application.  
 
-* Cancel the booking done in step 1 and modified in step 2, on the iPad application.
-
-
-Today, when applications are made to provide the same experience on multiple different platforms - such a scenario is valid and common. With Testsigma, you can test such cross-platform end-to-end testing scenarios easily.
-
-Let’s see how cross-platform end-to-end test automation can be done with Testsigma:
-
-
+Today, users have the choice to use the same application across multiple devices,OS, and browsers. Hence, to ensure that your application provides your users similar experiences on multiple platforms, it must be tested on as many platforms as possible.
+With Testsigma, you can test such cross-platform end-to-end testing scenarios easily.
 ---
-> ## [Pre-requisites](#pre-requisites)
-> The test suites containing test cases for the above scenarios should be already there. That is, Test cases to:
-> * Book the flight on the desktop web
-> * Modify an existing booking on an android application
-> * Cancel a booking on an iPad application
+> ## [Prerequisites](#pre-requisites)
 
+To perform a cross-platform end-to-end testing on Testsigma, you should know the following: 
+1. [Automate a test case in Testsigma](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)  
+2. [Create a test suite in Testsigma](https://testsigma.com/docs/test-management/test-suites/overview/)  
+3. [Create a test plan in Testsigma](https://testsigma.com/docs/test-management/test-plans/overview/)
 
-For the above, you should know how to:
+> ## [Steps to perform cross platform end-to-end testing](#steps to perform cross platform end-to-end testing)
 
-1. [Automate a test case in Testsigma](https://testsigma.com/docs/test-cases/manage/add-edit-delete/)
-2. [Create a Test Suite in Testsigma](https://testsigma.com/docs/test-management/test-suites/overview/)
-3. [Create a Test Plan in Testsigma](https://testsigma.com/docs/test-management/test-plans/overview/)
+**Create a test plan** 
 
+1. Click on the **Test Development** icon on the left and navigate to **Test Plans**. This will take you to the **Test Plans** page.
+2. On the test plans page, click **+Test Plan**, to create a new test plan.
+3. Enter a meaningful **Name** of minimum of 4 characters and a **Description**(optional) for your test plan, on the text fields provided.
+4. Click **Next**.
+5. To switch the UI to the classic version, click the toggle **Switch to Classic UI** and jumpt to *step 13*.   
+6. If you choose the latest version, follow the below steps. 
+7. To add test suites to the test plan, click **Add Test Suites**.
+![add test suites for e2e testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-plans/cross-platform-end-to-end-testing/add-test-suites.png)  
+8. On the Selected Test Suites window:  
 
----
+    * Click the toggle **Enable End-To-end Testing**, to enable end-to-end testing.  
+    * Select **Project** from the dropdown menu, to see the associated test suites.  
+    * Select the test suites from the **Available Test Suites** list.  
+    * Click **>>Add Selected**, to add the selected test suites to the test plan.  
+    * Click **Add**, to add the test suites to the test plan.  
+  
+9. To select the environment to run the test suite against, select **Add Machine**.  
+    * To run individual test suites on multiple environments, click **+Add Machine**,associated with each test suites.
 
-## [Steps](#steps)
+10. You can either choose to create a new machine or choose to run the test suit on an existing environment.  
+    * Select **Create New Machine**, to create a new machine.
+    * Select **Add to Existing Machine**, to run the test suite on an existing machine.  
 
-1. Add a Test Plan.
+11. If you have selected **Create New Machine**, on the **Add Machine** pane:
+    * Provide the following details:
+        * **Name**: Name of the test environment should be a minimum of 4 characters.  
+        * **Test Lab Type**: This option allows you to select the test lab your test suites are executed on. This includes your local device, the test lab plugins installed or the Testsigma cloud infrastructure. The test lab plugins include BrowserStack, Sauce Labs, Lambda Test, and so on.
+        * **Prerequisites**: This is a condition or set of conditions to be met for the test suite to be executed.  
+        * **Operating System**: Select the operating system to run the test suits.
+        * **OS Version**: Select the operating system version.  
+        * **Browser**: Select the browser.  
+        * **Browser version**: Select the browser version.  
+        * **Resolution**: Select the resolution of the device.  
+    * Click the toggle **Headless Test**, to enable headless testing. (This option is available only on Google Chrome). *For more information,refer to [headless testing](https://testsigma.com/docs/test-management/test-plans/headless-testing/)*.![add the machine for e2e testing execution](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-plans/cross-platform-end-to-end-testing/add-machine.png)  
 
-2. Enter the Test Name. For example, below is how we have added the Test Name for our example Test case:
+12. To add multiple test execution combinations (*test suite+ test machine*), repeat *step 6* to *step 10* and jump to *step 16*.
+![test suites and test machines added for e2e testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-plans/cross-platform-end-to-end-testing/add-test-suites-dashboard.png)
 
-![Step 1 to create a test plan](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/create-test-plan-step-1.png)
+13. If you choose the classic UI follow the below steps,  
+    * Select the **Testing Type** as **Distributed Testing**, to enable the cross-platform end-to-end testing feature. Distributed testing allows you to split your test suites across multiple test machines. In other words, enabling cross platform end-to-end testing. *For more information,refer to [distributed testing](https://testsigma.com/docs/test-management/test-plans/distributed-testing/)*.  
+![add first test suite for e2e testing execution](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/add-first-test-suite-e2e-testing.png)  
+    * Under the **Add configuration** section, select the following:  
+        * **Test Lab Type**: This option allows you to select the test lab your test suites are executed on. This includes your local device, the test lab plugins installed, or the Testsigma cloud infrastructure.The test lab plugins include BrowserStack, Sauce Labs, Lambda Test, and so on.  
+        * **Project**: Select the project from the dropdown menu, to see the associated test suites.  
+        * **Operating System(OS)**: Select the operating system to run the test suits.  
+        * **OS Version**: Select the operating system version.
+        * **Browser**: Select the browser.  
+        * **Browser Version**: Select the browser version.
+        * **Resolution**: Select the resolution of the device.  
+    * Click the toggle **Headless Test**, to enable headless testing.(This option is available only on Google Chrome).  
+    * Click **+Add Test Suites**, to add the test suites associated with the project.  
 
-3. Click on the Next Button on the ‘Create Test Plan’ Tab, the tab ‘Test Machines & Suites Selection’ Opens Up:
+14. To add test suites, repeat *step 7*.  
+15. To add multiple test execution combinations (test suite+ test machine), click **+Add**.
+16. Repeat *steps 12-14*.
+17. Click **Next**.     
+18. Under Test Plan Settings,
+     * Select the instances when the notifications are to be sent. For example, when the test suites executions have been *Passed*, *Aborted*, *Queued*, *Stopped* and so on.
+     * Specify the email to which the notifications have to be sent. If the collaboration plugins such as Google Chat, Slack, or MS Teams have been enabled the notifications will be sent to the associated accounts.   
+     * Specify additional settings: Click **Additional Settings**, to expand the additional settings section.   
+       Under **Additional Settings** section,   
+       * Specify the **Page Load Timeout** in the text field provided.
+       * Specify the **Element Timeout** in the text field provided.  
+       * Select the **Environment**.
+       * Specify the instances to record the screen shots. For example, you can either choose to capture screen shots for **All Tests**, or capture screen shots only for **Failed Steps**.
+       ![The test plan settings tab for E2E testing scenario](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/test-plan-settings-E2E-testing-scenario.png)  
+    * Specify recovery actions: Click **Recovery Actions**, to expand the recovery actions section and specify the recovery actions to be performed. 
+    ![Additional and recovery options under under test plan settings](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-plans/cross-platform-end-to-end-testing/additional-settings-and-recovery-actions.png)
 
-![Step 2 to add test machines and suites for test plan execution](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/test-machines-and-suites-selection-step-2.png)
+19. Click **Create**. You have now successfully created a test plan for cross platform end-to-end testing.	
+20. Once the test plan is created, you will be taken to the test plan page.
+21. On the Test Plan Page,  
+    * Click **Run Now** to see the test plan in execution.
+  ![Created Test Plan page for E2E testing scenario](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/created-test-plan-page-E2E-testing-scenario.png)  
+    * Click **View Reports** to view reports of the executed test plan.  
 
-4. On Tab 2, select the type as ‘Distributed Testing’ and select the Project containing the test suite, select the test suite, and select the test machine you want to execute it on. For our purpose, we chose “Simple Demo(Web)” as project, “Book Flight” as the test suite, and Latest Google Chrome on Windows 11 as the test machine. Below is a screenshot with the mentioned selections, for your reference:
-
-![add first test suite for e2e testing execution](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/add-first-test-suite-e2e-testing.png)
-
-5. Click on the ‘Add’ button to add this selection to test plan execution. Below is what you will see after clicking on the add button.
-
-![UI after adding first test suite for E2E testing on multiple platforms](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/after-adding-first-test-suite-e2e-testing.png)
-
-6. Now click on the big green ‘Add’ Button. Now you are ready to add another test execution combination (test suite + test machine) to the test plan. Below is a screenshot of how the screen appears:
-
-![Add second test execution to the E2E testing test case](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/add-second-test-execution-combination-e2e-testing.png)
-
-7. Here, choose the test suite for modifying booking for android ‘Modify Booking’, and choose the prerequisite as the test execution setting that was added in step 5. The test execution chosen in step 5, would appear as a drop-down for pre-requisites. Below is a screenshot of how the selection looks for our example E2E testing scenario:
-
-![The second test execution settings as selected for the E2E testing scenario](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/second-test-execution-selected.png)
-
-8. Click on the ‘Add’ Button to add this configuration to the test plan execution.
-
-9. Similarly, add another test execution combination (test suite + test machine) to the test plan - ‘Cancel Booking’ Test Suite for iOS. Below is how selection looks for the example E2E test scenario:
-
-
-![The third test execution settings as selected for the E2E testing scenario](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/third-test-execution-selected.png)
-
-10. Now, click on the ‘Add’ Button to add this configuration to the test plan execution. Below is how all the added test executions look:
-
-![All test executions added for E2E testing scenario](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/final-test-executions-for-E2E-testing-scenario.png)
-
-11. Click on the ‘Next’ Button. On the third tab ‘Test Plan Settings’, you can add the edit the settings to suit your needs and click on the ‘Create’ Button at the bottom as also shown in the screenshot below:
-
-![The test plan settings tab for E2E testing scenario](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/test-plan-settings-E2E-testing-scenario.png)
-
-12. Once the test plan is created, you will be taken to the test plan page, as shown below:
-
-![Created Test Plan page for E2E testing scenario](https://docs.testsigma.com/images/tutorials/test-plans/cross-platform-end-to-end-testing/created-test-plan-page-E2E-testing-scenario.png)
-
-13. On the Test Plan Page, you can click on the ‘Run Now’ button to see the test plan in execution. You can click on the ‘View Reports’ button to go to report. The button is highlighted below:
-
+Refer to the below GIF for a demonstration of the above steps for a flight booking application *Simply Travel*. The test plan includes the testing of the application on web (Linux, Windows and MacOS), mobile (Android and iOS):
 ![Gif to demonstrate test execution of a multi-platform E2E testing scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/e2e-testing-scenario-gif.gif)
 
-Alternatively, below is a gif demonstrating the above steps for configuring a cross-platform end-to-end test scenario with Testsigma:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
