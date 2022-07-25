@@ -47,11 +47,11 @@ The Test Steps iterates itself and subsequent rows of data are fed to the Test S
 
 2. Select the Test Data which you have created as shown below.
 
-![Choose a test data profile from the list](https://docs.testsigma.com/images/tutorials/data-driven-testing/choose-a-test-data-profile.png)
+![Choose a test data profile from the list](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/data-driven-testing/choose-test-dataprofile.png)
 
 3. Select the Test data profile you want to add to your test cases and enable Data Driven as shown below:
 
-![Toggle to enable data driven testing](https://docs.testsigma.com/images/tutorials/data-driven-testing/enable-data-driven-testing.png)
+![Toggle to enable data driven testing](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/test-cases/data-driven-testing/enable-data-driven-testing.png)
 
 Enabling the data-driven toggle will enable the test to run multiple times based on the number of rows available in Test Data Profile. For. If the data profile has 5 rows(sets) the test will run 5 times automatically using each data set(row) everytime.
 
