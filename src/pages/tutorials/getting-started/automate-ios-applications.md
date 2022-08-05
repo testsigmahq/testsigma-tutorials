@@ -230,7 +230,7 @@ Paste this in place of “test data”. Click **Create** and you are done!
 Here’s a summary of the steps we discussed so far.
 <iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-ios/recorded-steps-getting-started-testsigma-new.mp4" width="600" height="400"></iframe>
 
-To learn all other options available in the test recorder [click here](https://testsignma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
+To learn all other options available in the test recorder [click here](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/).
 
 ---
 
