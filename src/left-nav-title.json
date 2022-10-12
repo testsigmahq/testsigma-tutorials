@@ -1,0 +1,51 @@
+{
+  "automate-mobile-web-applications": {
+    "/tutorials/getting-started/automate-mobile-web-applications": "Get Started with Automating Mobile Web Applications"
+  },
+  "automate-android-applications": {
+    "/tutorials/getting-started/automate-android-applications/": "Get Started with Automating Android Apps "
+  },
+  "automate-rest-apis": {
+    "/tutorials/getting-started/automate-rest-apis": "Get Started with REST API Testing"
+  },
+  "build-tests-using-recorder": {
+    "/tutorials/test-cases/web-apps/build-tests-using-recorder/": "How to create web application tests using Test Recorder",
+    "/tutorials/test-cases/mobile-apps/build-tests-using-recorder/": "How to create Android & iOS app tests using Test Recorder"
+  },
+  "build-tests-using-local-android-devices": {
+    "/tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/" : "How to automate Android app tests using local devices"
+  },
+  "build-tests-using-local-ios-devices" : {
+    "/tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/": "How to automate iOS app tests using local devices"
+  },
+  "data-driven-testing": {
+    "/tutorials/test-cases/data-driven-testing/": "How to automate data driven testing"
+  },
+  "what-is-jsonpath": {
+    "/tutorials/rest-api-testing/what-is-jsonpath/": "What is JSONPath and How to query JSON using JSONPath"
+  },
+  "using-local-devices": {
+    "/tutorials/test-plans/using-local-devices/": "How to create test plans to run on your local devices"
+  },
+  "how-to-setup-agents-to-run-tests-on-local-mobile-devices": {
+    "/tutorials/agent/how-to-setup-agents-to-run-tests-on-local-mobile-devices/": "How to setup Agents to run tests on your local Mobile devices"
+  },
+  "rest-api-testing": {
+    "/tutorials/rest-api-testing/": "REST API"
+  },
+  "agent": {
+    "/tutorials/agent/": "Testsigma Agent"
+  },
+  "how-create-addons-actions": {
+    "/tutorials/addons/how-create-addons-actions/": "How to create Addons for automated actions"
+  },
+  "how-create-addons-test-data-generators": {
+    "/tutorials/addons/how-create-addons-test-data-generators/": "How to create a test data generator in Addons"
+  },
+  "how-create-addons-conditional-if": {
+    "/tutorials/addons/how-create-addons-conditional-if/": "How to create a Conditonal IF action in Addons"
+  },
+  "how-create-addons-while-loops": {
+    "/tutorials/addons/how-create-addons-while-loops/": "How to create a While action in Addons"
+  }
+}
