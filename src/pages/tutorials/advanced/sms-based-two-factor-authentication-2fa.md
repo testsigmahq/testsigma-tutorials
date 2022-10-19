@@ -11,3 +11,9 @@ warning: false
 ---
 
 ### Coming soon...
+## **Prerequisites**
+
+•	A Testsigma account. If you haven't already, sign up for a free trial.
+•	Understanding of creating and running test cases.
+•	Provisioned phone numbers.
+•	Familiarity with Regular expressions. If not, refer to Regex guide - MDN Docs.
