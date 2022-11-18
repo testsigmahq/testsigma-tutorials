@@ -135,7 +135,7 @@ Lets learn how to perform the actions in Test Recorder
 
 5. Add Conditional statements
 
-Learn more about [Test Recorder here.](https://testsoigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/)
+Learn more about [Test Recorder here.](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/)
 
 ###Record Actions
 
