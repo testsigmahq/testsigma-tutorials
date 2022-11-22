@@ -100,10 +100,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-freshchat`,
+      resolve: `gatsby-plugin-ts-freshchat`,
       options: {
         token: process.env.FRESHCHAT_TOKEN,
         host: "https://wchat.freshchat.com",
+        appEmbedUrl: "https://prestaging.testsigma.com/ui/dashboard",
       },
     },
     {
