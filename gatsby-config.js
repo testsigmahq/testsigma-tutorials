@@ -104,7 +104,7 @@ module.exports = {
       options: {
         token: process.env.FRESHCHAT_TOKEN,
         host: "https://wchat.freshchat.com",
-        appEmbedUrl: "https://prestaging.testsigma.com/ui/dashboard",
+        appEmbedUrl: "https://app.testsigma.com/ui/dashboard",
       },
     },
     {
