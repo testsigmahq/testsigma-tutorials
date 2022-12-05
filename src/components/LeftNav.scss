@@ -2,6 +2,10 @@
 
 .leftNav {
   background-color: #F6F7F9;
+  @media (min-width: 1280px) {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
   //height: 100%;
   position: sticky;
   height: 100vh;
@@ -20,7 +24,7 @@
   }
 
   >ul > .parent {
-    padding: 20px 0;
+    padding: 10px 0;
     &.currentUrl{
       padding-bottom: 20px;
     }
@@ -31,7 +35,7 @@
     display: none;
   }
   > ul {
-    border-bottom: 1px solid #C4C4C4 !important;
+    /*border-bottom: 1px solid #C4C4C4 !important;*/
     > li {
       .folder-icon{
         display: block;
@@ -141,10 +145,10 @@
     margin-bottom: 24px;
     img{
       display:inline;
-      position: relative;
+      /*position: relative;*/
       top: 3px;
-      width: 10px;
-      height: 10px;
+      width: 13px;
+      height: 13px;
       margin: 0px;
     }
 
