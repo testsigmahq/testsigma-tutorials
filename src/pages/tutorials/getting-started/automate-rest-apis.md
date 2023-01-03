@@ -71,7 +71,7 @@ A few of the available routes are given below:
 [https://jsonplaceholder.typicode.com/comments](https://jsonplaceholder.typicode.com/comments) |  will return a response containing 500 comment items
 [https://jsonplaceholder.typicode.com/comments?postId=1](https://jsonplaceholder.typicode.com/comments?postId=1) | will return a response containing the comments for post with id=1
 [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) | will return a response containing 10 users
-[https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1%C2%A0) | will return a response containing the user details for id=1
+[https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1) | will return a response containing the user details for id=1
 
 All of the most common HTTP verbs such as GET, POST, PUT, PATCH, and DELETE are supported.
 

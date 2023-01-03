@@ -65,7 +65,7 @@ In this tutorial we will demonstrate how Testsigma’s revolutionary mobile test
 > ## [Pre-requisites](#pre-requisites)
 > 1. You have a Testsigma account : If you haven't already, sign up for [a free trial](https://testsigma.com/signup)
 >   The trial includes all product features and free support (always!) via the in-app chat or email to [support@testsigma.com](mailto:support@testsigma.com)
-> 2. Testsigma agent for local execution(Optional): If you’d like to run your test using a local android device [follow this guide](https://testsigma.com//tutorials/test-cases/android-apps/build-tests-using-local-devices/) to install the Testsigma agent
+> 2. Testsigma agent for local execution(Optional): If you’d like to run your test using a local android device [follow this guide](https://testsigma.com//tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/) to install the Testsigma agent
 
 ---
 
@@ -289,7 +289,7 @@ If you need any help with errors you can reach out to [support@testsigma.com](ma
 
 * Start creating tests. [Explore Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/overview/)
 
-* Automate Android Apps using your local devices. [Learn more!](https://testsigma.com//tutorials/test-cases/android-apps/build-tests-using-local-devices/)
+* Automate Android Apps using your local devices. [Learn more!](https://testsigma.com//tutorials/test-cases/mobile-apps/build-tests-using-local-android-devices/)
 
 * Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
