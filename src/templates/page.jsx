@@ -35,8 +35,10 @@ export default ({ data, pageContext }) => {
         contextualLinks = <SideBar links={post.frontmatter.contextual_links} />;
     }
 
-    if(window.location.hostname=="website.testsigma.com") {
-        post.frontmatter.noindex = false;
+    const isBrowser = () => typeof window !== "undefined"
+    
+    if(isBrowser() && window.location.hostname=="website.testsigma.com") {
+        post.frontmatter.noindex = true;
     }
 
     return (
