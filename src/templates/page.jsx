@@ -35,6 +35,10 @@ export default ({ data, pageContext }) => {
         contextualLinks = <SideBar links={post.frontmatter.contextual_links} />;
     }
 
+    if(window.location.hostname=="website.testsigma.com") {
+        post.frontmatter.noindex = false;
+    }
+
     return (
         <Layout>
             <SEO
