@@ -12,6 +12,7 @@ import {Link} from "../../.cache/gatsby-browser-entry";
 import SearchInputBox from "../components/SearchInputBox";
 import MobileView from "../components/MobileView";
 import Footer from "../components/Footer"
+import {environment} from "../environment";
 
 export default ({ data, pageContext }) => {
 
@@ -35,9 +36,7 @@ export default ({ data, pageContext }) => {
         contextualLinks = <SideBar links={post.frontmatter.contextual_links} />;
     }
 
-    const isBrowser = () => typeof window !== "undefined"
-    
-    if(isBrowser() && window.location.hostname=="website.testsigma.com") {
+    if(environment.isStaging()) {
         post.frontmatter.noindex = true;
     }
 
