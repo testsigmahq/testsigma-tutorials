@@ -33,6 +33,8 @@ jobs:
           echo GTAG_TRACKING_ID_FOR_GA4=${{ secrets.GTAG_TRACKING_ID_FOR_GA4 }} >> .env
           echo GTAG_TRACKING_ID_FOR_GTAG=${{ secrets.GTAG_TRACKING_ID_FOR_GTAG }} >> .env
           cat .env
+          echo ${{ secrets.HOST_NAME }}
+          echo ${{ secrets.ASSET_HOST }}
       - name: Build
         run: |
           PREFIX_PATHS=true npm run build && npm run deploy
