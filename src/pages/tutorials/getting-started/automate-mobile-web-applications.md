@@ -97,7 +97,7 @@ Here’s how you can create a Project in Testsigma
 
 For this tutorial we’ll be simulating a login scenario for the ‘Simply travel” application.
 Here are the steps we’ll be performing using Testsigma
-1. Navigate to [http://travel.testsigma.com](http://travel.testsigma.com)
+1. Navigate to [https://travel.testsigma.com](https://travel.testsigma.com)
 
 2. Tap on Login SImply Travel
 
