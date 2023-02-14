@@ -60,17 +60,13 @@ Data-driven testing allows you to narrow and customize your test case using filt
 
  * **Parameter:** This type of filtering applies to non-sequential data sets. Here, the data sets are filtered using parameters used in the data sets. Here, filter operations are using *Equals*, *Contains*, *Start With*, *Ends With*, *Is Empty*, and *Is Not Empty*.
 
-
 ###
 
 3. Click **Create** or **Update** once the data driven is enabled.
-![test case data driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/create_data_driven_test_case.gif)
+![test case data driven](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/dd_testcaseenable.gif)
 
 [[info | NOTE:]]
-| You can use **runtime variables** in **filter values** by entering **$|Maharashtra|**, where *Maharashtra* is a stored variable, as shown in the example above.  
-
-
----
+| You can use **runtime variables** in **filter values** by entering **$|Washington, DC|**, where *Washington, DC* is a stored variable, as shown in the example above.  
 
 ## **Use parameter names in test case**
 
