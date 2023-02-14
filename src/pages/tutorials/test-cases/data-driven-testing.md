@@ -60,7 +60,6 @@ Data-driven testing allows you to narrow and customize your test case using filt
 
  * **Parameter:** This type of filtering applies to non-sequential data sets. Here, the data sets are filtered using parameters used in the data sets. Here, filter operations are using *Equals*, *Contains*, *Start With*, *Ends With*, *Is Empty*, and *Is Not Empty*.
 
-
 ###
 
 3. Click **Create** or **Update** once the data driven is enabled.
@@ -68,8 +67,6 @@ Data-driven testing allows you to narrow and customize your test case using filt
 
 [[info | NOTE:]]
 | You can use **runtime variables** in **filter values** by entering **$|Washington, DC|**, where *Washington, DC* is a stored variable, as shown in the example above.  
-
----
 
 ## **Use parameter names in test case**
 
