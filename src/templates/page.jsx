@@ -67,7 +67,7 @@ export default ({ data, pageContext }) => {
                     <nav className="flex-auto flex  items-center">
                         <nav className="flex w-4/5">
                             <div className="flex items-stretch font-semibold ml-20">
-                                <a className="btn btn-ghost btn-sm pr-2 rounded-btn" href={'/docs/'}>
+                                <a className="btn btn-ghost btn-sm pr-2 rounded-btn" href={'/docs/getting-started/introduction-cloud/'}>
                                     Docs
                                 </a>
                                 <a className="btn btn-ghost btn-sm border-b-2 border-green-500 rounded-btn ml-10 text-green-600" >
