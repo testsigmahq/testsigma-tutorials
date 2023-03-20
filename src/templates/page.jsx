@@ -13,9 +13,6 @@ import SearchInputBox from "../components/SearchInputBox";
 import MobileView from "../components/MobileView";
 import Footer from "../components/Footer"
 import {environment} from "../environment";
-import Index from "../pages/tutorials/index";
-
-const isIndexPage = window.location.pathname === '/tutorials/';
 
 export default ({ data, pageContext }) => {
 
@@ -106,29 +103,25 @@ export default ({ data, pageContext }) => {
                         <LeftNav />
                     </nav>
                     <div className="flex-auto w-4/5">
-                        {isIndexPage ? (
-                            <Index/>
-                        ) : (
-                                <div className="flex items-stretch w-full">
-                                    <main className="w-4/5">
-                                        <div className="doc-page px-20 py-14">
-                                            <h1>{post.frontmatter.title}</h1>
-                                            <span dangerouslySetInnerHTML={{ __html: post.html }} />
+                        <div className="flex items-stretch w-full">
+                            <main className="w-4/5">
+                                <div className="doc-page px-20 py-14">
+                                    <h1>{post.frontmatter.title}</h1>
+                                    <span dangerouslySetInnerHTML={{ __html: post.html }} />
 
-                                        </div>
-
-                                    </main>
-                                    <aside className="w-1/5">
-                                        <hr className="d-block lg:hidden"/>
-                                        <div className="top-0 top-1 border-l pl-4 py-16 sticky">
-                                            <div className="edit-button">
-                                                <EditDoc className="items-end btn edit-button-styles flex inline-flex items-center" />
-                                            </div>
-                                            {contextualLinks}
-                                        </div>
-                                    </aside>
                                 </div>
-                            )}
+
+                            </main>
+                            <aside className="w-1/5">
+                                <hr className="d-block lg:hidden"/>
+                                <div className="top-0 top-1 border-l pl-4 py-16 sticky">
+                                    <div className="edit-button">
+                                        <EditDoc className="items-end btn edit-button-styles flex inline-flex items-center" />
+                                    </div>
+                                    {contextualLinks}
+                                </div>
+                            </aside>
+                        </div>
                         <div className="pagination_buttons">
                             <div className={prev ? 'flex justify-between' : 'overflow-hidden'}>
                                 {prev && (
