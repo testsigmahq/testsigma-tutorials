@@ -576,9 +576,14 @@ code[class*="language-"] {
 }
 .home-page_banner{
   background-image: url("~/src/components/images/bg-banner.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 1rem;
   padding-bottom: 6rem;
   padding-top: 5rem;
+  @media (max-width: $screen_768) {
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+  }
 }
