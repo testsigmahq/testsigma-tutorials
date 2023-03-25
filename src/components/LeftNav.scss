@@ -293,6 +293,12 @@
 .float_left{
   float:left;
 }
+.homepage_btn{
+  font-weight: 600;
+  &:hover{
+    color: $Mountain_Meadow;
+  }
+}
 
 //.currentUrl{
 //  margin-left: -15px!important;
