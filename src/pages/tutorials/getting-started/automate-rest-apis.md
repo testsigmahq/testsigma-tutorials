@@ -75,8 +75,6 @@ A few of the available routes are given below:
 
 All of the most common HTTP verbs such as GET, POST, PUT, PATCH, and DELETE are supported.
 
-Learn more about [Usage of various HTTP requests for REST API Testing in Testsigma](https://testsigma.com/docs/test-cases/create-steps-restapi/methods/)
-
 If you are new to Web Service Testing, see [How to add Test Steps for Web Service/API Testing.](https://testsigma.com/docs/test-cases/step-types/rest-api/)
 
 ---
@@ -121,8 +119,6 @@ This test checks for the Expected Header of the Response for a simple GET reques
 **Test:** Header Test
 
 **Expected Header Content:** {"content-type":"application/json; charset=utf-8"}
-
-Please check this article for more details on comparison Types - [Comparison Modes in Web Services Testing](https://testsigma.com/docs/test-cases/create-steps-restapi/comparison-types/)
 
 ![Verify Response Header for a GET Request](https://docs.testsigma.com/images/tutorials/automate-rest-api/verify-response-expected-response-header.png)
 
