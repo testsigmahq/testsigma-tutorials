@@ -1,6 +1,6 @@
 ---
 title: "How to automate tests for Android Apps using local devices"
-metadesc: ""
+metadesc: "How to setup & install Testsigma Agent on your local machine and register it to your Testsigma Account for local inspection and test runs."
 noindex: false
 order: 2.31
 page_id: "How to automate tests for Android Apps using local devices"

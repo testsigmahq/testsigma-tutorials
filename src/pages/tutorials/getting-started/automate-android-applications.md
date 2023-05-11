@@ -1,6 +1,6 @@
 ---
 title: "Get Started with Automating Android Apps"
-metadesc: "A quick Tutorial to help you with your first steps to testing an android app using Testsigma"
+metadesc: "This quick tutorial discusses in detail on how to create basic tests for an android application using Mobile Test Recorder in Testsigma Application."
 noindex: false
 order: 1.3
 page_id: "Get Started with Automating Android Apps"
@@ -88,10 +88,10 @@ These projects (here, Android application) will also have a few sample Test Case
 1. Start by creating a Project first.
    For a detailed overview, check [here](https://testsigma.com/docs/projects/overview/)
 
-2. Create a Test Case
+2. Create a Test Case.
    For a detailed overview, check [here](https://testsigma.com/docs/test-cases/overview/)
 
-3. Add Test Steps
+3. Add Test Steps.
    Once you create a Test Case, you will be redirected to the page where you can add all your Test Steps.
 
 Here’s a video that explains all the steps discussed so far.
@@ -102,9 +102,9 @@ The next section explains how you can add steps to test a sample scenario.
 **Sample Test Scenario:** We will be using a sample login test scenario using the wordpress app where the user taps on login, enters an email ID and is sent a magic login link.
 
 There are two ways you can add Test Steps to your Test Case:
-1. Add/Record Test Steps using the Test Recorder
+1. Add/Record Test Steps using the Test Recorder.
 
-2. Writing your tests step by step in simple English language
+2. Writing your tests step by step in simple English language.
 
 [[info | INFO:]]
 | _Before you start make sure you’ve referred to the **‘Setting the stage to write your first test’** ‘section in this tutorial and your are currently in the **‘Test Case Details’** Page_
@@ -160,12 +160,12 @@ New to Testsigma Mobile Recorder? [Here](https://testsigma.com/tutorials/test-ca
 
 By default, the recorder will be in inspection mode (highlighted in yellow when you hover over any element).
 
-![inspector_mode](https://docs.testsigma.com/images/tutorials/getting-started-android/inspector_mode_new.gif)
+![inspector_mode](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/inspect.gif)
 
 Let’s try interacting with the Wordpress app we just uploaded.
 
 
-**Test Step 1.** Perform Tap action on
+**Test Step 1.** Perform Tap action on.
 To record the Tap action we have two options, clicking on the ‘Log in’ button or the ‘Sign up’ button. For now in Inspector mode, click on the Login button with your mouse.
 
 You’d see a new pane appear in the centre.
@@ -181,13 +181,13 @@ You’ll notice 3 options appear on top in the same pane:
 So in this case click on tap and the recorder will perform a tap action in the app. Simultaneously this will generate an NLP statement in your test steps on the left hand side. 
 
 
-![tap_action](https://docs.testsigma.com/images/tutorials/getting-started-android/tap_action_new.gif)
+![tap_action](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/tap.gif)
 
-**Test step 2:** Enter data into a field
+**Test step 2:** Enter data into a field.
 
 After the tap action you will be navigated into the next screen in the app where you have to enter the email ID in the field provided.
 
-![enter_data](https://docs.testsigma.com/images/tutorials/getting-started-android/enter_data_new.gif)
+![enter_data](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/enternewdata.gif)
 
 To do this in inspector mode, first click on the email field. Then from the actions choose the enter data option. A box will pop up where you’ll be able to enter the email you want to.
 
@@ -195,23 +195,23 @@ Like the previous step the same actions will be recorded as an NLP step.
 
 If you want to **clear** the value entered, clicking on the clear option after selecting that element in inspector mode will do that for you. And once again since we’re recording the test it will be converted into a test step in NLP.
 
-![clear_action](https://docs.testsigma.com/images/tutorials/getting-started-android/clear_action_new.gif)
+![clear_action](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/clearaction.gif)
 
-**Test step 3** Click on next
+**Test step 3** Click on next.
 
-Once you’ve entered the desired email address click on the next button and the once again select the tap option in the middle pane
+Once you’ve entered the desired email address click on the next button and the once again select the tap option in the middle pane.
 
-**Test step 4:** Click on Send Link
+**Test step 4:** **Click on Send Link**.
 
 This is once again similar to the previous click actions. Since in this specific scenario we do not have a valid login user ID we’ll need to use an assertion step at the end to verify the previous test steps were executed successfully
 
-**Test Step 5**. Add a verify statement (assertion) manually
+**Test Step 5**. Add a verify statement (assertion) manually.
 
 After performing these basic actions we need to verify that they were successful. We do this by using a verify statement which is otherwise called an Assertion in Test Automation.
 
 So first click on the empty test step below the most recently created one in the recorder. From the drop down list select **‘Verify that the current page displays OPEN MAIL’**
 
-![verify_step_android](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_step_android_new.gif)
+![verify_step_android](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/verify.gif)
 
 Here’s a summary of the steps we discussed so far.
 
@@ -227,18 +227,18 @@ Here’s a summary of the steps we discussed so far.
 
 In this section you will learn:
 
-1. How to add steps and create a new element on the go
+1. How to add steps and create a new element on the go,
     Learn more about how to add steps manually from the test case details page [here](https://testsigma.com/docs/test-cases/create-steps-recorder/android-apps/add-steps-manually/).
    
    ![edit_elements_recorder](https://docs.testsigma.com/images/tutorials/getting-started-android/edit_elements_recorder.gif)
 
-2. How to add steps using existing elements
+2. How to add steps using existing elements,
    You can reuse them at any time by choosing the element you want to use/reuse in the Test Case. Simply pick the name of the Element.
 
-3. How to add a simple verification steps
+3. How to add a simple verification steps,
    Use the Verify action as used in Test Step 5 in the previous section.
    
-    ![verify_edit_in_test](https://docs.testsigma.com/images/tutorials/getting-started-android/verify_edit_in_test_new.gif)
+    ![verify_edit_in_test](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/verify_edit_in_test_new.gif)
 
 4. How to create multiple elements at once,
    Read [this](https://testsigma.com/docs/elements/android-apps/record-multiple-elements/) to learn more.

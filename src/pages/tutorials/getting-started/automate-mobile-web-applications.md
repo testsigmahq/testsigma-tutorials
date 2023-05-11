@@ -1,6 +1,6 @@
 ---
 title: "Testsigma Quick-Start Guide For mobile web Application Testing"
-metadesc: ""
+metadesc: "This Tutorial will help you learn the basics of creating tests with Testsigma and help you create and execute your first test case for a sample mobileweb application."
 noindex: false
 order: 1.2
 page_id: "Testsigma Quick-Start Guide For mobile web Application Testing"

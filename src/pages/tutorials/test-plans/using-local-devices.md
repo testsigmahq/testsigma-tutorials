@@ -114,7 +114,7 @@ Once you have connected your mobile to your laptop device via USB cable and enab
 [[info | NOTE:]]
 | **Make sure you have selected an Android application under your project.**
 
-![Make sure to select an Android app project](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/android-app-project.gif)
+![Make sure to select an Android app project](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/androidapp.gif)
 
 Now go to the test case you want to run on your device and click on Run.
 
@@ -122,7 +122,7 @@ Now go to the test case you want to run on your device and click on Run.
 
 Select **Local devices** under **Select Test Lab**.  Your device will appear in **Select Test Device**. Upload an APK file under **uploads** then click on the **Run Now** button.
 
-![select-test-environment](https://docs.testsigma.com/images/tutorials/run-tests-on-local-devices/select-test-environment.gif)
+![select-test-environment](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/testenv.gif)
 
 You can observe your mobile screen to see the test running once the execution begins. In the Testsimga app, you can see the page below:
 
@@ -141,4 +141,7 @@ If the executions are not running as expected in local devices refer to [this tr
 
 
 **If the issue persists, [connect with Testsigma Support on Discord](https://discord.com/invite/5caWS7R6QX)** or reach out to support@testsigma.com. 
+
+
+
 

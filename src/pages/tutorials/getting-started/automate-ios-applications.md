@@ -1,6 +1,6 @@
 ---
 title: "Get Started with Automating iOS Apps"
-metadesc: ""
+metadesc: "This quick tutorial discusses in detail on how to create basic tests for an iOS application using Mobile Test Recorder in Testsigma Application."
 noindex: false
 order: 1.4
 page_id: "Get Started with Automating iOS Apps"
@@ -45,17 +45,17 @@ This tutorial helps you create basic tests for an iOS application using Testsigm
 
 ## [We cover :](#we-cover-)
 
-* Prerequisites needed for getting started
+* Prerequisites needed for getting started.
 
-* Introduction to Testsigma’s very own mobile test recorder + inspector
+* Introduction to Testsigma’s very own mobile test recorder + inspector.
 
-* How to use Testsigma mobile test recorder to capture all the element details efficiently
+* How to use Testsigma mobile test recorder to capture all the element details efficiently.
 
-* How to write tests for an iOS app and run it in the cloud
+* How to write tests for an iOS app and run it in the cloud.
 
-* A sample scenario tested using Testsigma
+* A sample scenario tested using Testsigma.
 
-* How to view the comprehensive test results
+* How to view the comprehensive test results.
 
 ---
 > ## [Prerequisites](#prerequisites)
@@ -71,11 +71,11 @@ This tutorial helps you create basic tests for an iOS application using Testsigm
 
 Let’s understand these in detail.
 
-* Project - Can be your iOS application name for instance
+* Project - Can be your iOS application name for instance.
 
-* Test Case - specific scenario that has to be tested, say, login functionality
+* Test Case - specific scenario that has to be tested, say, login functionality.
 
-* Test Steps - the actual set of instructions/steps required to test the functionality
+* Test Steps - the actual set of instructions/steps required to test the functionality.
 
 [[info | INFO:]]
 | _By default, 4 Projects will be readily available on your account._
@@ -85,11 +85,11 @@ Let’s understand these in detail.
    For a detailed overview, [check here](https://testsigma.com/docs/projects/overview/)
 
 
-2. Create a Test Case
+2. Create a Test Case.
    For a detailed overview, [check here](https://testsigma.com/docs/test-cases/overview/)
 
 
-3. Add Test Steps
+3. Add Test Steps.
    Once you create a Test Case, you will be redirected to the page where you can add all your Test Steps.
 
 Here’s a video that explains all the steps discussed so far.
@@ -103,9 +103,9 @@ The next section explains how you can add steps to test a sample scenario.
 
 There are two ways you can add Test Steps to your Test Case:
 
-1. Add/Record Test Steps using the Test Recorder
+1. Add/Record Test Steps using the Test Recorder.
 
-2. Writing your tests step by step in simple English language
+2. Writing your tests step by step in simple English language.
 
 [[info | INFO:]]
 | _Before you start make sure you’ve referred to the **‘Setting the stage to write your first test’** ‘section in this tutorial and your are currently in the **‘Test Case Details’** Page_
@@ -120,7 +120,7 @@ The Testsigma test recorder (web and mobile) is in-built and sits directly on yo
 
 Step1: To do this, simply click the **Record** option at the top of the test case details page.
 
-![Click record to start recording](https://docs.testsigma.com/images/tutorials/getting-started-ios/recorder-start-record-option.jpg)
+![Click record to start recording](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/applications/record.png)
 
 Step 2: A new window will appear that has a few options in rows.
 
@@ -136,7 +136,7 @@ Let’s break down each row.
 
    **Local devices** as the name indicates means you can run the tests you are about to create on your own current/local device. In this case, you need to install Testsigma Agent on your device. Learn how to install Testsigma Agent  [here](https://testsigma.com/docs/agent/setup-on-windows-mac-linux/).
 
-**Select Version** and **Select Device** that you wish to run your tests on (in case you choose cloud option i.e. Testsigma Lab)
+**Select Version** and **Select Device** that you wish to run your tests on (in case you choose cloud option i.e. Testsigma Lab).
 
    **Select iOS Version :** Select the version of the application of the iOS device you wish to run your tests on.
 
@@ -182,7 +182,7 @@ This will perform a click/tap action and will take you to the next screen on the
 
 ![Perform a click/tap action](https://docs.testsigma.com/images/tutorials/getting-started-ios/perform-tap-action.png) 
 
-**Test Step 2.** Enter some data
+**Test Step 2.** Enter some data.
 
 As you see, the next screen on the Twitter app has 2 fields, _Name_ and _Phone_.
 
@@ -203,9 +203,8 @@ Click on **Clear**. This will wipe clean the entered value on this field.
 
 **Test Step 4**. Enter data
 
-You guessed it right! This step is the same as Test Step 2.
-To enter a phone number, repeat the same process. Click to keep focus and press the **“Enter Data”** button at the top of the centre pane. Now enter the phone number you wish to enter and 
-click **Enter Data** to save.
+This step is the same as Test Step 2.<br>
+To enter a phone number, repeat the same process. Click to keep focus and press the **“Enter Data”** button at the top of the centre pane. Now enter the phone number you wish to enter and click **Enter Data** to save.
 
 
 **Test Step 5**. Tap button
@@ -213,7 +212,7 @@ click **Enter Data** to save.
 This is similar to Test Step 1. Simply click on the field/button you wish to tap on. In this case the Login button. Simply click the Tap option at the top of the pane in the centre.
 
 
-**Test Step 6**.  Add a verify statement (assertion) manually
+**Test Step 6**.  Add a verify statement (assertion) manually.
 
 Now, let’s verify some text on the app screen.
 
@@ -225,7 +224,7 @@ You only need to replace the test data part with the actual text you copied, let
 
 ![How to add a verify step](https://docs.testsigma.com/images/tutorials/getting-started-ios/verify-nlp-template.gif)
 
-Paste this in place of “test data”. Click **Create** and you are done!
+Paste this in place of **test data**. Click **Create** and you are done!
 
 Here’s a summary of the steps we discussed so far.
 <iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-ios/recorded-steps-getting-started-testsigma-new.mp4" width="600" height="400"></iframe>
@@ -241,17 +240,13 @@ To learn all other options available in the test recorder [click here](https://t
 
 In this section you will learn:
 
-1. How to add steps and create a new element on the go
+1. How to add steps and create a new element on the go.<br>
    Learn more about how to add steps manually from the test case details page [here](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/add-steps-manually/).
 
-![Add more steps manually at any time](https://docs.testsigma.com/images/tutorials/getting-started-ios/add-nlp-test-steps-manually.gif)
-
-2. How to add steps using existing elements
+2. How to add steps using existing elements.<br>
    You can reuse them at any time by choosing the element you want to use/reuse in the Test Case. Simply pick the name of the Element.
 
-![Reuse an already created element in any test step easily](https://docs.testsigma.com/images/tutorials/getting-started-ios/reuse-already-added-element-in-test-step.gif)
-
-3. How to add a simple verification steps
+3. How to add a simple verification steps.<br>
    Use the Verify action as used in Test Step 5 in the previous section.
 
 4. Testsigma lets you capture all elements on the go.
@@ -261,7 +256,7 @@ In this section you will learn:
 ---
 ## [Run your test case](#run-your-test-case)
 
-You can run your tests locally on your own machine or on the devices on the cloud (that you may not necessarily own!)
+You can run your tests locally on your own machine or on the devices on the cloud (that you may not necessarily own!).
 
 At the top right of your Test Steps page, click on **Run**.
 
@@ -269,7 +264,7 @@ Choose the device you wish to run your tests on, the device configurations, or h
 
 Click **Run Now**.
 
-Here’s a video that shows you a sample test run done for the test case we created
+Here’s a video that shows you a sample test run done for the test case we created.
 
 <iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-ios/dry-test-step-result-details-al-powered-test-automation-platform-testsigma.mp4" width="600" height="400"></iframe>
 
@@ -307,7 +302,7 @@ You would also find all previous run results in the Dry Runs tab. You can also s
 
 Refer to [this](https://testsigma.com/docs/reports/runs/overview/) tutorial to learn how to create test plans and run them.
 
-_This is a basic test that can be recorded by interacting with your app. also [ping us](https://discord.com/invite/5caWS7R6QX) for awesome support!_
+_This is a basic test that can be recorded by interacting with your app. Also, [ping us](https://discord.com/invite/5caWS7R6QX) for awesome support!_
 
 ---
 
@@ -323,8 +318,6 @@ _This is a basic test that can be recorded by interacting with your app. also [p
 
 * Try out more advanced capabilities. Check out our detailed [documentation](https://testsigma.com/docs/).
 
-
 Reach out to us through in app chat for a walkthrough or if you have any questions!
 
 **Join [Discord Server](https://discord.com/invite/5caWS7R6QX) to learn more about Testsigma.**
-

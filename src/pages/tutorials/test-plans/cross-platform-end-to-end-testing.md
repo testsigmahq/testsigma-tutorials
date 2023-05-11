@@ -124,20 +124,3 @@ To perform a cross-platform end-to-end testing on Testsigma, you should know the
 
 Refer to the below GIF for a demonstration of the above steps for a flight booking application *Simply Travel*. The test plan includes the testing of the application on web (Linux, Windows and MacOS), mobile (Android and iOS):
 ![Gif to demonstrate test execution of a multi-platform E2E testing scenarios](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/runs/test-plan-executions/e2e-testing-scenario-gif.gif)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
