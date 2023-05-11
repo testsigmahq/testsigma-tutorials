@@ -1,6 +1,6 @@
 ---
 title: "How to automate tests for iOS Apps using local devices"
-metadesc: ""
+metadesc: "You can now automate tests for iOS apps using local devices. Learn how to automate tests for iOS devices in Testsigma appplication"
 noindex: false
 order: 2.41
 page_id: "How to automate tests for iOS Apps using local devices"

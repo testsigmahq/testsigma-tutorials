@@ -1,6 +1,6 @@
 ---
 title: "How to create Test Steps for uploading files"
-metadesc: ""
+metadesc: "Learn how to automate the file upload action in Testsigma | Upload the file that you want to use in the automated action into Testsigma Storage."
 noindex: false
 order: 2.12
 page_id: "How to create Test Steps for uploading files"

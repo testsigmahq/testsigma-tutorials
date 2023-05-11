@@ -1,6 +1,6 @@
 ---
 title: "How to add While actions "
-metadesc: "End to end tutorial on how to create an add-on for WHILE conditional action"
+metadesc: "End to end tutorial on how to create an add-on for WHILE conditional action. Learn how to build an action that can be used as a conditional test step."
 noindex: false
 order: 6.4
 page_id: "How to add While actions "

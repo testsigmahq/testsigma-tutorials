@@ -1,6 +1,6 @@
 ---
 title: "Get Started with Automating Web Applications"
-metadesc: ""
+metadesc: "This Tutorial will help you learn the basics of creating tests with Testsigma and help you create and execute your first test case for a sample web application."
 noindex: false
 order: 1.1
 page_id: "Get Started with Automating Web Applications"
