@@ -1,6 +1,6 @@
 ---
 title: "Get Started with REST API Testing"
-metadesc: ""
+metadesc: "This tutorial demonstrate how RESTful APIs or web services can be tested using Testsigma | Geting Started with REST API Testing in Testsigma"
 noindex: false
 order: 1.5
 page_id: "Get Started with REST API Testing"

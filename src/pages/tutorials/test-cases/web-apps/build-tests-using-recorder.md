@@ -1,6 +1,6 @@
 ---
 title: "Web: How to build Test Cases using Recorder"
-metadesc: ""
+metadesc: "This tutorial will help you understand how to use the step recorder to create a readable and editable test case for an end-to-end scenario"
 noindex: false
 order: 2.11
 page_id: "Web: How to build Test Cases using Recorder"
@@ -40,7 +40,7 @@ contextual_links:
 
 ---
 
-Recording user actions is an effective way to simplify test creation and enable everyone in your team to contribute to building tests. In this tutorial we are going to show you how to use the step recorder to create a readable and editable test case for an end-to-end scenario
+Recording user actions is an effective way to simplify test creation and enable everyone in your team to contribute to building tests. In this tutorial we are going to show you how to use the step recorder to create a readable and editable test case for an end-to-end scenario.
 
 ---
 ## [We cover]()

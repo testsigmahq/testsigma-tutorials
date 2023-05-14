@@ -1,6 +1,6 @@
 ---
 title: "Contract Testing with Testsigma"
-metadesc: "This document describes the step-by-step details on how to execute contract testing with Testsigma, a no-code test automation tool."
+metadesc: "This document describes the step-by-step details on how to execute contract testing with Testsigma application, a no-code test automation tool."
 noindex: false
 order: 3.2
 page_id: "How to do Contract Testing with Testsigma"
