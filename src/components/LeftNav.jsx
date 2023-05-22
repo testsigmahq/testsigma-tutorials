@@ -15,14 +15,17 @@ class ListItem extends React.Component {
 
     constructor(props) {
         super(props);
-        const { data, isRoot } = this.props;
+        const { data, isRoot, identifier } = this.props;
         this.state = {
             data,
             isRoot,
+            identifier,
             active: [],
             currentUrl: '',
+            expandedPanels: [],
         };
         this.toggleActive = this.toggleActive.bind(this);
+        this.toggleExpansion = this.toggleExpansion.bind(this); // Bind toggleExpansion method
     }
 
     componentDidMount() {
@@ -30,24 +33,23 @@ class ListItem extends React.Component {
     }
 
     setActive = (name) => {
-        const { active } = this.state;
+        const {active, expandedPanels} = this.state;
         if (active.indexOf(name) === -1) {
-            this.setState((prev) => ({ active: [...prev.active, name] }));
-            const { expandedPanels } = this.state;
-            if(!expandedPanels){
-                this.setState(() => ({ expandedPanels: [ name] }));
+            this.setState((prev) => ({active: [...prev.active, name]}));
+            if (!expandedPanels.includes(name)) { // Check if name is already in expandedPanels
+                this.setState((prev) => ({expandedPanels: [...prev.expandedPanels, name]}));
             }
         }
-    } // sets a given list item as active
+    };
 
 
     toggleExpansion(identifier) {
         const { expandedPanels } = this.state;
-        if (expandedPanels?.indexOf(identifier) === -1) {
+        if (expandedPanels.includes(identifier)) {
+            const updatedExpandedPanels = expandedPanels.filter((panel) => panel !== identifier);
+            this.setState({ expandedPanels: updatedExpandedPanels });
+        } else {
             this.setState((prev) => ({ expandedPanels: [...prev.expandedPanels, identifier] }));
-        } else if(expandedPanels){
-            expandedPanels.splice(expandedPanels.indexOf(identifier), 1);
-            this.setState(() => ({ expandedPanels: [...expandedPanels] }));
         }
     }
 
@@ -121,7 +123,7 @@ class ListItem extends React.Component {
         return (
             <ul
                 key={`${name}-${uuidv4()}`}
-                className={` ${(this.state.expandedPanels?.indexOf(name) === 0) ? 'active' : 'inactive'} ${isRoot ? ' root' : ''} `}
+                className={` ${(this.state.expandedPanels?.indexOf(name) !== -1) ? 'active' : 'inactive'} ${isRoot ? ' root' : ''} `}
             >
                 <li className={`parent${this.inUrl(`/${name}/`) ? ' currentUrl text_green' : ''}`} onClick={this.toggleActive} identifier={name}>
                     <svg onClick={(e)=>{this.toggleActive(e); this.toggleExpansion(name)}} identifier={name} className={`inline float_left relative folder-icon parent_caret${(this.state.expandedPanels?.indexOf(name) !== -1) ? ' active_parent_caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24"
@@ -184,7 +186,6 @@ const LeftNav = () => {
     return (
         <>
             <div className="leftNav bg-gray-50 px-14 pt-5">
-                <Link to={"/tutorials/"} className="homepage_btn">Testsigma Tutorials</Link>
                 <ListItem data={data.leftNavLinks.value} isRoot />
             </div>
         </>
