@@ -1,7 +1,7 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './SearchInputBox.scss';
 
-import algoliasearch from 'algoliasearch/lite';
 import {
     InstantSearch,
     SearchBox,
@@ -11,31 +11,37 @@ import {
 } from 'react-instantsearch-dom';
 import { SearchHits } from './SearchHits';
 
+import TypesenseInstantsearchAdapter from "typesense-instantsearch-adapter";
+
 // window.$ = $;
 
 /* Algolia Search Bar */
 const ClickOutHandler = require('react-onclickout');
 
-const algoliaClient = algoliasearch(
-    "KNXVCEA9ZA",
-    "72fe5e5e369c1af18857a365a1332ec4",
-);
+// Create the Typesense InstantSearch Adapter instance
 
-// removes empty query searches from analytics
-const searchClient = {
-    search(requests) {
-        const newRequests = requests.map((request) => {
-            // test for empty string and change request parameter: analytics
-            if (!request.params.query || request.params.query.length === 0) {
-                request.params.analytics = false;
-            }
-            return request;
-        });
-        return algoliaClient.search(newRequests);
-    },
-};
+// @ts-ignore
+console.log(process.env.TYPESENSE_SEARCH_API_KEY);
+console.log(process.env.TYPESENSE_HOST);
+const typesenseInstantsearchAdapter = new TypesenseInstantsearchAdapter({
+  server: {
+    apiKey: process.env.TYPESENSE_SEARCH_API_KEY, // Use your Typesense search-only API key here
+    nodes: [
+      {
+        host: process.env.TYPESENSE_HOST,
+        port: process.env.TYPESENSE_PORT,
+        protocol: process.env.TYPESENSE_PROTOCOL,
+      }
+    ],
+  },
+  collectionSpecificSearchParameters: {
+    tutorials: {
+      query_by: "title,search_keyword,excerpt",
+    }
+  }
+});
 
-
+export const searchClient = typesenseInstantsearchAdapter.searchClient;
 
 class SearchInputBox extends React.Component {
     constructor(props) {
@@ -50,15 +56,13 @@ class SearchInputBox extends React.Component {
     }
 
     // Algolia - clicking out exits searchbox
-    onClickOut = () => {
+    onClickOut = (event) => {
         const searchInput = document.getElementsByClassName(
             'ais-SearchBox-input',
         )[0].value;
-        if (searchInput !== '') {
-            this.setState(() => ({
-                hasInput: false,
-            }));
-        }
+        const domNode = ReactDOM.findDOMNode(this);
+        if (searchInput === '' || !domNode || !domNode.contains(event.target))
+            this.setState({ hasInput: false });
     } // end onClickOut
 
 
@@ -66,24 +70,24 @@ class SearchInputBox extends React.Component {
 
     render() {
         const {
-            refresh, hasInput, beta, visibleHelloBar, cookie,
+            refresh, hasInput
         } = this.state;
         return (
             <>
-                {/* Aloglia Widgets */}
-                <div className="form-inline flex w-1/5 items-center pl-4">
+                
+                <div className={!hasInput ? 'form-inline flex w-1/5 items-center pl-4' : 'form-inline flex w-1/5 items-center pl-4 float-searchBox'}>
                     <label htmlFor="search-lc" />
 
                     <ClickOutHandler onClickOut={this.onClickOut}>
                         <InstantSearch
                             searchClient={searchClient}
-                            indexName="OS Docs"
+                            indexName={process.env.TYPESENSE_COLLECTION}
                             refresh={refresh}
                         >
                             <Configure hitsPerPage={5} />
 
                             {/* forcefeed className because component does not accept natively as prop */}
-                            <div>
+                            <div className="search-icon">
                                 <svg
                                     width="15"
                                     height="15"

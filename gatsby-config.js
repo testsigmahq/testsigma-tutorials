@@ -3,58 +3,6 @@ require('dotenv').config({
   path: `.env`,
 });
 
-const pageQuery = `{
-  docs: allMarkdownRemark(
-    filter: {
-      fileAbsolutePath: { regex: "/tutorials/" },
-    }
-  ) {
-    edges {
-      node {
-        headings(depth: h3) {
-          value
-        }
-        objectID: id
-        frontmatter {
-          title
-          search_keyword
-          contextual_links {
-            type
-            name
-            url
-          }
-        }
-        fields {
-          slug
-        }
-        excerpt(
-          pruneLength: 6700
-        )
-      }
-    }
-  }
-}`;
-
-
-function pageToAlgoliaRecord({ node: { id, frontmatter, ...rest } }) {
-  return {
-    objectID: id,
-    ...frontmatter,
-    ...rest,
-  };
-}
-
-const settings = { attributesToSnippet: ['excerpt:20'] };
-
-const queries = [
-  {
-    query: pageQuery,
-    transformer: ({ data }) => data.docs.edges.map(pageToAlgoliaRecord),
-    indexName: 'OS Docs',
-    settings,
-  },
-];
-
 
 module.exports = {
   assetPrefix: process.env.ASSET_HOST,
@@ -86,18 +34,6 @@ module.exports = {
       options: {
         name: 'src',
         path: `${__dirname}/src/`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-algolia',
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries,
-        chunkSize: 10000, // default: 1000
-        enablePartialUpdates: true, // only index new, changed, deleted records
-        matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified'],
-        concurrentQueries: false,
       },
     },
     {
@@ -166,6 +102,12 @@ module.exports = {
                   title: "optional",
                 },
               },
+            },
+          },
+          {
+            resolve: 'gatsby-plugin-env-variables',
+            options: {
+              allowList: ['TYPESENSE_HOST', 'TYPESENSE_PORT', 'TYPESENSE_PROTOCOL', 'TYPESENSE_API_KEY', "TYPESENSE_SEARCH_API_KEY", "TYPESENSE_COLLECTION"],
             },
           }
         ],
