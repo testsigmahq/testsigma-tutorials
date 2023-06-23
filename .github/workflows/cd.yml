@@ -10,10 +10,10 @@ jobs:
       - name: Install libvips
         run: sudo apt-get install libvips
       - uses: actions/checkout@v2
-      - name: Setup Node 12
+      - name: Setup Node 16
         uses: actions/setup-node@v2
         with:
-          node-version: '12'
+          node-version: '16'
       - name: Install dependencies
         run: |
           npm i --force --unsafe-perm
