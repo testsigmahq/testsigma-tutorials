@@ -80,6 +80,10 @@ export default ({ data, pageContext }) => {
                                         <EditDoc className="items-end btn edit-button-styles flex inline-flex items-center" />
                                     </div>
                                     {contextualLinks}
+                                    <div className='float-cta rounded'>
+                                      <h3 className='cta-title font-semibold'>See how you can release 10x faster.</h3>
+                                      <a href='/request-demo' target='_blank' className='signup-btn border border-green-600 px-4 py-1.5 bg-green-600 font-bold text-white rounded'>Book a free demo</a>
+                                    </div>
                                 </div>
                             </aside>
                         </div>
