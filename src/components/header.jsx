@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import SearchInputBox from './SearchInputBox';
 
 const Header = () => {
 
-    var window;
-    const isHomepage = window.location.pathname == '/tutorials/';
+    const [isHomepage, setIsHomepage] = useState(false);
 
+    useEffect(() => {
+        setIsHomepage(window.location.pathname === '/tutorials/');
+    }, []);
     return (
         <header id="root_header">
                 <div className="flex items-stretch">
