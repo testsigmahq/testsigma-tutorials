@@ -3,7 +3,7 @@ import SearchInputBox from './SearchInputBox';
 
 const Header = () => {
 
-
+    var window;
     const isHomepage = window.location.pathname == '/tutorials/';
 
     return (
