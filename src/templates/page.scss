@@ -20,7 +20,12 @@ body{
   height: 100%;
 }
 
-#root_header > div {
+#root_header{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+ > div {
   @media (max-width: 576px) {
     // position: relative;
     // z-index: 10;
@@ -67,6 +72,7 @@ body{
       order: 1;
     }
   }
+}
 }
 
 .doc-page {
