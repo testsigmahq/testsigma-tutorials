@@ -20,7 +20,12 @@ body{
   height: 100%;
 }
 
-#root_header > div {
+#root_header{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+ > div {
   @media (max-width: 576px) {
     // position: relative;
     // z-index: 10;
@@ -67,6 +72,7 @@ body{
       order: 1;
     }
   }
+}
 }
 
 .doc-page {
@@ -561,7 +567,7 @@ code[class*="language-"] {
 .homepage_footer{
   flex-basis: 100%;
   justify-content: space-between;
-  margin-bottom: 4rem;
+  margin: 2rem 0 4rem;
   .pagination_buttons{
     @media (min-width: $screen_768) {
       margin: 0;
@@ -586,4 +592,24 @@ code[class*="language-"] {
     background-size: cover;
     background-position: center;
   }
+}
+.float-cta{
+  @apply px-4 py-8 flex justify-center flex-col;
+  background-color: #EFEFEF;
+  width: 95%;
+  margin: 3rem 0 0;
+  .cta-title{
+    margin: 0 !important;
+    font-size: 24px !important;
+    line-height: 36px !important;
+    text-align: center;
+  }
+  .signup-btn{
+    margin: 1rem 0 0;
+    @apply flex justify-center;
+  }
+}
+
+.fixed{
+  display: none;
 }
