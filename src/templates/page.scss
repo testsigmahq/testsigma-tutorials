@@ -537,12 +537,18 @@ code[class*="language-"] {
 }
 .card_container{
   padding-bottom: 2rem;
+  .flex{
+    display: flex !important;
+  }
 }
 .chat_btn{
   padding: 1rem;
   margin-right: 1rem;
   background: linear-gradient(0deg, $nile_blue, $nile_blue), $jade_green;
   border-radius: .2rem;
+  @media only screen and (max-width: 767px) {
+    @apply hidden;
+  }
   span{
     padding-left: .5rem;
     color: $white;
@@ -612,4 +618,46 @@ code[class*="language-"] {
 
 .fixed{
   display: none;
+}
+.logo-block  {
+  @media (max-width: 767px) {
+    @apply w-full;
+  }
+  svg {
+    @media (max-width: 1279px) {
+      @apply my-4 mx-0;
+    }
+  }
+}
+.search-block {
+  @media (max-width: 767px) {
+    @apply w-full pb-4 pt-0 py-0;
+  }
+  @media (min-width: 768px) {
+    order: 2;
+  }
+  @media (min-width: 768px) {
+    width: 60%;
+  }
+  @media (min-width: 1024px) {
+    @apply w-1/5;
+  }
+  @media (max-width: 1279px) {
+    @apply p-0;
+  }
+  > a {
+    @media (min-width: 768px) {
+      @apply whitespace-nowrap;
+    }
+    @media only screen and (max-width: 767px) {
+      &:last-child{
+        @apply hidden;
+      }
+    }
+  }
+}
+.header-container{
+  @media only screen and (max-width: 767px) {
+    @apply px-8; 
+  }
 }
