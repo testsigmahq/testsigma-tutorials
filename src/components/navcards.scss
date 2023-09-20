@@ -5,7 +5,8 @@
   border: .1rem solid $light-grey;
   border-radius: 2px;
   @media (max-width: 767px) {
-    @apply w-full m-8;
+    @apply m-8;
+    width: 100%;
   }
   &:hover{
     background: $black_haze;
