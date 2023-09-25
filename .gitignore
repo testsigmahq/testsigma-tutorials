@@ -3,6 +3,5 @@ node_modules/
 public
 .idea/*
 *.iml
-.env
 .DS_Store
 package-lock.json
