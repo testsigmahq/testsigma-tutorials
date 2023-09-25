@@ -20,7 +20,7 @@ const Header = () => {
                         </svg>
                     </a>
                     <nav className="flex-auto flex  items-center">
-                        <nav className="flex w-4/5">
+                        <nav className="flex w-7/12">
                             <div className="flex items-stretch font-semibold ml-20">
                                 <a className="btn btn-ghost btn-sm pr-2 rounded-btn" href={'/docs/'}>
                                     Docs
