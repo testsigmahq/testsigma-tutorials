@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
@@ -37,7 +37,34 @@ function SEO({ lang,
     `,
     );
 
-    const isIndexed = !noindex ? 'index, follow' : 'noindex, nofollow'
+    const isIndexed = !noindex ? 'index, follow' : 'noindex, nofollow';
+
+    const loadGTM = window.location.href.includes("tutorials");
+
+    useEffect(() => {
+        if (loadGTM) {
+            const script = document.createElement('script');
+            const noscript = document.createElement('noscript');
+            script.type = 'text/javascript';
+            script.innerHTML = `
+            (function(w,d,s,l,i){
+                w[l]=w[l]||[];
+                w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+                var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+                j.async=true;
+                j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5F8HTVT');
+            `;
+            noscript.innerHTML = `
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F8HTVT"
+                height="0" width="0" style="display:none;visibility:hidden">
+                </iframe>
+            `
+            document.head.appendChild(script);
+            document.head.appendChild(noscript);
+        }
+    }, []);
 
     return (
         <Helmet
