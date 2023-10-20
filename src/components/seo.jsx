@@ -42,13 +42,12 @@ function SEO({ lang,
     let loadGTM = false;
 
     if (typeof window !== 'undefined') {
-        loadGTM = window.location.href.includes("testsigma.com") || window.location.href.includes("https://www.testsigma.com/") || window.location.href.includes("https://testsigma.com/");
+        loadGTM = window.location.href.includes("tutorials") || window.location.href.includes("https://www.testsigma.com/") || window.location.href.includes("https://testsigma.com/");
     }
 
     useEffect(() => {
     if (loadGTM) {
         const script = document.createElement('script');
-        const noscript = document.createElement('noscript');
         script.type = 'text/javascript';
         script.innerHTML = `
         (function(w,d,s,l,i){
@@ -60,18 +59,13 @@ function SEO({ lang,
             f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-5F8HTVT');
         `;
-        noscript.innerHTML = `
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F8HTVT"
-        height="0" width="0" style="display:none;visibility:hidden">
-        </iframe>
-        `
         document.head.appendChild(script);
-        document.head.appendChild(noscript);
     }
     }, []);
 
     return (
-        <Helmet
+        <>
+            <Helmet
             htmlAttributes={{
                 lang,
             }}
@@ -177,6 +171,18 @@ function SEO({ lang,
             <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/23341221.js"></script>
 
         </Helmet>
+        {loadGTM && (
+                <>
+                    <noscript>
+                        {`
+                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F8HTVT"
+                        height="0" width="0" style="display:none;visibility:hidden">
+                        </iframe>
+                        `}
+                    </noscript>
+                </>
+            )}
+        </>
     );
 }
 
