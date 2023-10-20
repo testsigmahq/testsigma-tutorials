@@ -182,7 +182,7 @@ function SEO({ lang,
                         '"@type":'+ '"ListItem",'+
                         '"position":'+ '2,'+
                         '"name":'+ '"Docs",'+
-                        '"item":'+ '"https://testsigma.com/docs/"'+
+                        '"item":'+ '"https://testsigma.com/tutorials/"'+
                     '},'+ '{'+
                         '"@type":'+ '"ListItem",'+
                         '"position":'+ '3,'+
