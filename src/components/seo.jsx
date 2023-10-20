@@ -181,7 +181,7 @@ function SEO({ lang,
                     '},'+ '{'+
                         '"@type":'+ '"ListItem",'+
                         '"position":'+ '2,'+
-                        '"name":'+ '"Docs",'+
+                        '"name":'+ '"Tutorials",'+
                         '"item":'+ '"https://testsigma.com/tutorials/"'+
                     '},'+ '{'+
                         '"@type":'+ '"ListItem",'+
