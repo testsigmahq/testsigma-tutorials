@@ -5,23 +5,23 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import favicon from './../images/favicon-new.ico';
 
 function SEO({ lang,
-                 meta,
-                 title,
-                 slug,
-                 canonical,
-                 metadesc,
-                 keywords,
-                 social_share_summary,
-                 social_share_desc,
-                 social_share_image,
-                 noindex
+                meta,
+                title,
+                slug,
+                canonical,
+                metadesc,
+                keywords,
+                social_share_summary,
+                social_share_desc,
+                social_share_image,
+                noindex
              }) {
     const { site } = useStaticQuery(
         graphql`
@@ -37,9 +37,34 @@ function SEO({ lang,
     `,
     );
 
-    const isIndexed = !noindex ? 'index, follow' : 'noindex, nofollow'
+    const isIndexed = !noindex ? 'index,follow' : 'noindex,nofollow'
+
+    let loadGTM = false;
+
+    if (typeof window !== 'undefined') {
+        loadGTM = window.location.href.includes("testsigma.com") || window.location.href.includes("https://www.testsigma.com/") || window.location.href.includes("https://testsigma.com/");
+    }
+
+    useEffect(() => {
+    if (loadGTM) {
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.innerHTML = `
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5F8HTVT');
+        `;
+        document.head.appendChild(script);
+    }
+    }, []);
 
     return (
+        <>
         <Helmet
             htmlAttributes={{
                 lang,
@@ -146,6 +171,18 @@ function SEO({ lang,
             <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/23341221.js"></script>
 
         </Helmet>
+        {loadGTM && (
+            <>
+                <noscript>
+                    {`
+                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F8HTVT"
+                    height="0" width="0" style="display:none;visibility:hidden">
+                    </iframe>
+                    `}
+                </noscript>
+            </>
+        )}
+    </>
     );
 }
 
