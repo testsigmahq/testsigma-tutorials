@@ -73,7 +73,7 @@ export default ({ data, pageContext }) => {
                                 </div>
 
                             </main>
-                            <aside className="w-1/5">
+                            <aside className="w-1/5 bg-white">
                                 <hr className="d-block lg:hidden" />
                                 <div className="top-0 top-1 border-l pl-4 py-16 sticky">
                                     <div className="edit-button">
