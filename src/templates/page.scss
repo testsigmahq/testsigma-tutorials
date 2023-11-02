@@ -18,6 +18,8 @@ body{
   //overflow: auto;
   overflow-x: hidden;
   height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
 #root_header{
