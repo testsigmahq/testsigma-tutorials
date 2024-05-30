@@ -32,5 +32,3 @@ Check out the [contributing](CONTRIBUTING.md) guide for more details.
 ## License
 
 The source code in this directory is under [Apache License 2.0](LICENSE).
-
-
