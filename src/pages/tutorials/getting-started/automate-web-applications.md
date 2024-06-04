@@ -170,7 +170,7 @@ You will now be taken to the Test Cases Details page where you will see all the 
 Here’s a video that summarizes the steps we have discussed.
 <iframe src="https://docs.testsigma.com/videos/tutorials/getting-started-web/video1.mp4" width="600" height="400"></iframe>
 
-Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
+Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
 
 [[info | NOTE:]]
 | _This is a basic test that can be recorded by interacting with your app. We will dive into more advanced capabilities in other tutorials or [ping us](https://discord.com/invite/5caWS7R6QX) for awesome support!_                                                        
@@ -265,7 +265,7 @@ These reports can be viewed directly in the Testsigma application, or can be dow
 
 * Practice in your account. If you don't have an account [Try out!](https://testsigma.com/signup).
 
-* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder)
 
 * Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
@@ -275,3 +275,4 @@ Reach out to us through in app chat for a walk through or if you have any questi
 
 [Join Testsigma’s Discord Server](https://discord.com/invite/FXQSP7FXND)
 
+---
