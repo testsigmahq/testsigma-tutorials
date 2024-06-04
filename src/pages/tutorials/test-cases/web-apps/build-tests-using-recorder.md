@@ -43,6 +43,7 @@ contextual_links:
 Recording user actions is an effective way to simplify test creation and enable everyone in your team to contribute to building tests. In this tutorial we are going to show you how to use the step recorder to create a readable and editable test case for an end-to-end scenario.
 
 ---
+
 ## [We cover]()
 
 * Prerequisites for getting started
@@ -56,6 +57,7 @@ Recording user actions is an effective way to simplify test creation and enable 
 * Analyzing results
 
 ---
+
 > ## [Pre-requisites]()
 > 1. **You have a Testsigma account :** If you haven't already, sign up for a [free trial](https://testsigma.com/signup)
 >     The trial includes all product features and free support (always!) via the in-app chat or email to [support@testsigma.com](mailto:support@testsigma.com)
@@ -194,6 +196,7 @@ This statement ensures that we’ve executed all the steps successfully and the 
 
 
 ---
+
 ## [Running your test]()
 
 Once you’ve completed writing all your test steps, click on the Run button on the top right hand side of your screen.
@@ -203,6 +206,7 @@ Once you’ve completed writing all your test steps, click on the Run button on 
 You can run your tests locally on your own machine or on the devices on the cloud (that you may not necessarily own!)
 
 ---
+
 ## [Analyzing results]()
 
 After running the test case you’ll be able to view the results of your test run for each step by clicking on each of them.
@@ -214,11 +218,12 @@ You can also view screenshots of each test step execution as well as watch a vid
 To view detailed results of all your test cases you can navigate to: Test development -> Run Results where can use several filters to fetch detailed reports
 
 ---
+
 ## [Next Steps]()
 
 * Practice in your account. If you don't have an account [Try out!](https://testsigma.com/signup).
 
-* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder)
 
 * Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
@@ -228,3 +233,4 @@ Reach out to us through in app chat for a walkthrough or if you have any questio
 
 **JoinTestsigma’s [Discord Server](https://discord.com/invite/5caWS7R6QX) for support**
 
+---
