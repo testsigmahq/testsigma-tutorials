@@ -153,7 +153,7 @@ To add more steps additionally to the already recorded tests (like we discussed 
 
 **Step 4:** Once you’re done recording, click on **‘Finish’** and you’ll be navigated back to the test case details screen where you’ll see all your test steps.
 
-Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/).
+Explore the recorder and ways you can use it to its full potential and record all complex scenarios [here](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder).
 
 _This is a basic test that can be recorded by interacting with your app. We will dive into more advanced capabilities in other tutorials or you can also [ping us](https://discord.com/invite/5caWS7R6QX) for awesome support!_
 
@@ -270,7 +270,7 @@ To view detailed results of all your test cases you can navigate to: Test develo
 
 * Practice in your account. If you don't have an account [Try out!](https://testsigma.com/signup).
 
-* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-steps-recorder/web-apps/overview/)
+* Try all options in Test Recorder. [Try it out!](https://testsigma.com/docs/test-cases/create-test-steps/overview/#creating-test-steps-using-test-recorder)
 
 * Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
@@ -282,3 +282,4 @@ Reach out to us through in app chat for a walkthrough or if you have any questio
 
 
 
+---
