@@ -20,15 +20,15 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     'gatsby-plugin-react-helmet',
-    // {
-    //   resolve: `gatsby-plugin-s3`,
-    //   options: {
-    //     bucketName: process.env.BUCKET_NAME,
-    //     protocol: "https",
-    //     hostname: process.env.HOST_NAME,
-    //     generateRedirectObjectsForPermanentRedirects: true
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: process.env.BUCKET_NAME,
+        protocol: "https",
+        hostname: process.env.HOST_NAME,
+        generateRedirectObjectsForPermanentRedirects: true
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -44,17 +44,29 @@ module.exports = {
         appEmbedUrl: "https://app.testsigma.com/ui/dashboard",
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: process.env.GA_TRACKING_ID,
-    //     head: false,
-    //     anonymize: true,
-    //     respectDNT: true,
-    //     enableWebVitalsTracking: true,
-    //   },
-    // },
-    // npm
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA_TRACKING_ID,
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        enableWebVitalsTracking: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          process.env.GTAG_TRACKING_ID_FOR_GA4, // Google Analytics 4
+          process.env.GTAG_TRACKING_ID_FOR_GTAG, // Google Tag Manager
+        ],
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+        },
+      }
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
