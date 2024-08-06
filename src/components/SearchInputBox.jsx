@@ -62,7 +62,7 @@ class SearchInputBox extends React.Component {
             searchQuery: ''
         };
 
-        this.debouncedSearch = debounce(this.handleSearch, 300);
+        this.debouncedSearch = debounce(this.handleSearch, 500);
     }
 
     onClickOut = (event) => {
@@ -80,9 +80,11 @@ class SearchInputBox extends React.Component {
             hasInput: query.length > 2,
         });
 
-        this.setState({ searchQuery: '' }, () => {
-            this.debouncedSearch(query);
-        });
+        if (this.state.searchQuery !== query) {
+            this.setState({ searchQuery: '' }, () => {
+                this.debouncedSearch(query);
+            });
+        }
     }
 
     handleSearch = (query) => {
