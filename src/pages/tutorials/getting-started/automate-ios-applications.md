@@ -312,7 +312,7 @@ _This is a basic test that can be recorded by interacting with your app. Also, [
 
 * Start creating tests. [Explore Recorder.](https://testsigma.com/docs/test-cases/create-steps-recorder/ios-apps/overview/)
 
-* Automate iOS Apps using your local devices. [Learn more!](https://testsigma.com//tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/)
+* Automate iOS Apps using your local devices. [Learn more!](https://testsigma.com/tutorials/test-cases/mobile-apps/build-tests-using-local-ios-devices/)
 
 * Create Test Plans and Schedule. Head over to [this link!](https://testsigma.com/docs/test-management/test-plans/schedule-plans/)
 
