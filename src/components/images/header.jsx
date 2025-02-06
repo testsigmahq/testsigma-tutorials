@@ -67,7 +67,7 @@ const Header = () => {
             <a
               id={'signup-btn'}
               target={'_blank'}
-              className='border border-primary_teal_green px-4 py-1.5 text-secondary_teal_green rounded'
+              className='border border-primary_teal_green px-4 py-1.5 text-primary_teal_green rounded'
               href='/signup'
             >
               GET STARTED FREE
@@ -75,7 +75,7 @@ const Header = () => {
             <a
               id={'signup-btn'}
               target={'_blank'}
-              className='border border-primary_teal_green px-4 py-1.5 base-teal-gradient text-white rounded'
+              className='border border-primary_teal_green px-4 py-1.5 bg-primary_teal_green text-white rounded'
               href='/request-demo'
             >
               BOOK A DEMO
