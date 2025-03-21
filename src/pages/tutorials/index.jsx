@@ -6,7 +6,6 @@ import LeftNav from '../../components/LeftNav';
 import 'prismjs/themes/prism-tomorrow.css';
 import '../../templates/page.scss';
 import SEO from '../../components/seo';
-import SearchInputBox from '../../components/SearchInputBox';
 import MobileView from '../../components/MobileView';
 
 import CardList from '../../components/navcards';
