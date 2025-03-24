@@ -92,7 +92,7 @@ async function indexData() {
     });
     console.log(`Collection ${process.env.TYPESENSE_COLLECTION} created successfully.`);
 
-    const response = await request('http://localhost:8001/___graphql', pageQuery);
+    const response = await request('http://127.0.0.1:8001/___graphql', pageQuery);
     console.log('response', response);
     const data = await response;
 
