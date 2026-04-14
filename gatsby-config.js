@@ -16,10 +16,15 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
-    "gatsby-transformer-remark",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-env-variables',
+      options: {
+        allowList: ['TYPESENSE_HOST', 'TYPESENSE_PORT', 'TYPESENSE_PROTOCOL', 'TYPESENSE_API_KEY', "TYPESENSE_SEARCH_API_KEY", "TYPESENSE_COLLECTION"],
+      },
+    },
     {
       resolve: `gatsby-plugin-s3`,
       options: {
@@ -104,12 +109,6 @@ module.exports = {
               },
             },
           },
-          {
-            resolve: 'gatsby-plugin-env-variables',
-            options: {
-              allowList: ['TYPESENSE_HOST', 'TYPESENSE_PORT', 'TYPESENSE_PROTOCOL', 'TYPESENSE_API_KEY', "TYPESENSE_SEARCH_API_KEY", "TYPESENSE_COLLECTION"],
-            },
-          }
         ],
       },
     }
