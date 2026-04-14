@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: npm ci --unsafe-perm
+        run: npm ci --legacy-peer-deps --unsafe-perm
       - name: Force installing sharp
         run: npm install --ignore-scripts=false --verbose sharp@0.30.7 --force --unsafe-perm
       - name: 'Create env file'
